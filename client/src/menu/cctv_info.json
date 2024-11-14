@@ -1,0 +1,1269 @@
+[
+    {
+        "name": "mbc네거리",
+        "latitude": "35.866703",
+        "longitude": "128.62648",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch44.stream/playlist.m3u8",
+        "id": "E100001"
+    },
+    {
+        "name": "가창삼거리",
+        "latitude": "35.801472",
+        "longitude": "128.622411",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch206.stream/playlist.m3u8",
+        "id": "E100002"
+    },
+    {
+        "name": "감삼네거리",
+        "latitude": "35.854124",
+        "longitude": "128.5481",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch160.stream/playlist.m3u8",
+        "id": "E100003"
+    },
+    {
+        "name": "강창교",
+        "latitude": "35.854174",
+        "longitude": "128.470244",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch100.stream/playlist.m3u8",
+        "id": "E100004"
+    },
+    {
+        "name": "강촌마을교차로",
+        "latitude": "35.876431",
+        "longitude": "128.668687",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch171.stream/playlist.m3u8",
+        "id": "E100005"
+    },
+    {
+        "name": "거동네거리",
+        "latitude": "35.944943",
+        "longitude": "128.558313",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch158.stream/playlist.m3u8",
+        "id": "E100006"
+    },
+    {
+        "name": "건들바위네거리",
+        "latitude": "35.855712",
+        "longitude": "128.598484",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch37.stream/playlist.m3u8",
+        "id": "E100007"
+    },
+    {
+        "name": "검단네거리",
+        "latitude": "35.906028",
+        "longitude": "128.619153",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch165.stream/playlist.m3u8",
+        "id": "E100008"
+    },
+    {
+        "name": "경기장네거리",
+        "latitude": "35.832985",
+        "longitude": "128.683564",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch33.stream/playlist.m3u8",
+        "id": "E100009"
+    },
+    {
+        "name": "경대교",
+        "latitude": "35.886359",
+        "longitude": "128.601905",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch11.stream/playlist.m3u8",
+        "id": "E100010"
+    },
+    {
+        "name": "경대부문",
+        "latitude": "35.89238",
+        "longitude": "128.609402",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch89.stream/playlist.m3u8",
+        "id": "E100011"
+    },
+    {
+        "name": "계명네거리",
+        "latitude": "35.856101",
+        "longitude": "128.58304",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch85.stream/playlist.m3u8",
+        "id": "E100012"
+    },
+    {
+        "name": "계산오거리",
+        "latitude": "35.866577",
+        "longitude": "128.587811",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch99.stream/playlist.m3u8",
+        "id": "E100013"
+    },
+    {
+        "name": "고모로",
+        "latitude": "35.862289",
+        "longitude": "128.675733",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch127.stream/playlist.m3u8",
+        "id": "E100014"
+    },
+    {
+        "name": "공산수원지삼거리",
+        "latitude": "35.90246",
+        "longitude": "128.603856",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch13.stream/playlist.m3u8",
+        "id": "E100015"
+    },
+    {
+        "name": "공평네거리",
+        "latitude": "35.86981",
+        "longitude": "128.600041",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch77.stream/playlist.m3u8",
+        "id": "E100016"
+    },
+    {
+        "name": "공항교교차로",
+        "latitude": "35.899009",
+        "longitude": "128.622479",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch159.stream/playlist.m3u8",
+        "id": "E100017"
+    },
+    {
+        "name": "관계삼거리",
+        "latitude": "35.818824",
+        "longitude": "128.64952",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch5.stream/playlist.m3u8",
+        "id": "E100018"
+    },
+    {
+        "name": "교동네거리",
+        "latitude": "35.873643",
+        "longitude": "128.601048",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch45.stream/playlist.m3u8",
+        "id": "E100019"
+    },
+    {
+        "name": "금리사거리",
+        "latitude": "35.681649",
+        "longitude": "128.450545",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch137.stream/playlist.m3u8",
+        "id": "E100020"
+    },
+    {
+        "name": "금호분기점",
+        "latitude": "35.894312",
+        "longitude": "128.53474",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch120.stream/playlist.m3u8",
+        "id": "E100021"
+    },
+    {
+        "name": "김흥2_15M-1",
+        "latitude": "35.745321",
+        "longitude": "128.490033",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch71.stream/playlist.m3u8",
+        "id": "E100023"
+    },
+    {
+        "name": "남대구IC",
+        "latitude": "35.841363",
+        "longitude": "128.527436",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch119.stream/playlist.m3u8",
+        "id": "E100024"
+    },
+    {
+        "name": "남대구IC삼거리",
+        "latitude": "35.836796",
+        "longitude": "128.522547",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch208.stream/playlist.m3u8",
+        "id": "E100025"
+    },
+    {
+        "name": "남문네거리",
+        "latitude": "35.860994",
+        "longitude": "128.592425",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch83.stream/playlist.m3u8",
+        "id": "E100026"
+    },
+    {
+        "name": "남침산네거리",
+        "latitude": "35.883431",
+        "longitude": "128.590098",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch213.stream/playlist.m3u8",
+        "id": "E100027"
+    },
+    {
+        "name": "능성",
+        "latitude": "35.963073",
+        "longitude": "128.739519",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch128.stream/playlist.m3u8",
+        "id": "E100028"
+    },
+    {
+        "name": "달성네거리",
+        "latitude": "35.877358",
+        "longitude": "128.58148",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch86.stream/playlist.m3u8",
+        "id": "E100029"
+    },
+    {
+        "name": "대구공고네거리",
+        "latitude": "35.88125",
+        "longitude": "128.61422",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch26.stream/playlist.m3u8",
+        "id": "E100030"
+    },
+    {
+        "name": "대구역네거리",
+        "latitude": "35.874851",
+        "longitude": "128.595069",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch87.stream/playlist.m3u8",
+        "id": "E100031"
+    },
+    {
+        "name": "대구은행네거리",
+        "latitude": "35.859642",
+        "longitude": "128.614208",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch93.stream/playlist.m3u8",
+        "id": "E100032"
+    },
+    {
+        "name": "대덕문화전당",
+        "latitude": "35.831892",
+        "longitude": "128.577858",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch271.stream/playlist.m3u8",
+        "id": "E100033"
+    },
+    {
+        "name": "대덕산임휴사",
+        "latitude": "35.809224",
+        "longitude": "128.55659",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch266.stream/playlist.m3u8",
+        "id": "E100034"
+    },
+    {
+        "name": "대덕승마장",
+        "latitude": "35.825593",
+        "longitude": "128.555351",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch268.stream/playlist.m3u8",
+        "id": "E100035"
+    },
+    {
+        "name": "대리삼거리",
+        "latitude": "35.663474",
+        "longitude": "128.423907",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch145.stream/playlist.m3u8",
+        "id": "E100036"
+    },
+    {
+        "name": "대봉교",
+        "latitude": "35.854998",
+        "longitude": "128.607077",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch204.stream/playlist.m3u8",
+        "id": "E100037"
+    },
+    {
+        "name": "대실역네거리",
+        "latitude": "35.857066",
+        "longitude": "128.465696",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch153.stream/playlist.m3u8",
+        "id": "E100038"
+    },
+    {
+        "name": "대천교삼거리",
+        "latitude": "35.818399",
+        "longitude": "128.502613",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch163.stream/playlist.m3u8",
+        "id": "E100039"
+    },
+    {
+        "name": "대천지하도네거리",
+        "latitude": "35.815436",
+        "longitude": "128.507089",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch216.stream/playlist.m3u8",
+        "id": "E100040"
+    },
+    {
+        "name": "덕곡",
+        "latitude": "35.992322",
+        "longitude": "128.614994",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch129.stream/playlist.m3u8",
+        "id": "E100041"
+    },
+    {
+        "name": "덕곡치안센터",
+        "latitude": "35.833669",
+        "longitude": "128.600633",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch274.stream/playlist.m3u8",
+        "id": "E100042"
+    },
+    {
+        "name": "도곡네거리",
+        "latitude": "35.927446",
+        "longitude": "128.598854",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch202.stream/playlist.m3u8",
+        "id": "E100043"
+    },
+    {
+        "name": "도동분기점",
+        "latitude": "35.914472",
+        "longitude": "128.656009",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch121.stream/playlist.m3u8",
+        "id": "E100044"
+    },
+    {
+        "name": "도청교",
+        "latitude": "35.888176",
+        "longitude": "128.598357",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch36.stream/playlist.m3u8",
+        "id": "E100045"
+    },
+    {
+        "name": "동대구IC",
+        "latitude": "35.883318",
+        "longitude": "128.698058",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch116.stream/playlist.m3u8",
+        "id": "E100046"
+    },
+    {
+        "name": "동대구역네거리",
+        "latitude": "35.876816",
+        "longitude": "128.625649",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch1.stream/playlist.m3u8",
+        "id": "E100047"
+    },
+    {
+        "name": "동산네거리",
+        "latitude": "35.870339",
+        "longitude": "128.582362",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch80.stream/playlist.m3u8",
+        "id": "E100048"
+    },
+    {
+        "name": "동신교",
+        "latitude": "35.868238",
+        "longitude": "128.613438",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch217.stream/playlist.m3u8",
+        "id": "E100049"
+    },
+    {
+        "name": "동인네거리",
+        "latitude": "35.872427",
+        "longitude": "128.604312",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch42.stream/playlist.m3u8",
+        "id": "E100050"
+    },
+    {
+        "name": "동촌초교교차로",
+        "latitude": "35.883789",
+        "longitude": "128.658216",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch170.stream/playlist.m3u8",
+        "id": "E100051"
+    },
+    {
+        "name": "두류공원네거리",
+        "latitude": "35.847046",
+        "longitude": "128.566818",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch157.stream/playlist.m3u8",
+        "id": "E100052"
+    },
+    {
+        "name": "두류네거리",
+        "latitude": "35.857778",
+        "longitude": "128.557636",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch22.stream/playlist.m3u8",
+        "id": "E100053"
+    },
+    {
+        "name": "두산오거리",
+        "latitude": "35.82985",
+        "longitude": "128.622983",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch97.stream/playlist.m3u8",
+        "id": "E100054"
+    },
+    {
+        "name": "들안길삼거리",
+        "latitude": "35.829703",
+        "longitude": "128.616792",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch220.stream/playlist.m3u8",
+        "id": "E100055"
+    },
+    {
+        "name": "만촌네거리",
+        "latitude": "35.85915",
+        "longitude": "128.645698",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch35.stream/playlist.m3u8",
+        "id": "E100056"
+    },
+    {
+        "name": "만평네거리",
+        "latitude": "35.889468",
+        "longitude": "128.562408",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch12.stream/playlist.m3u8",
+        "id": "E100057"
+    },
+    {
+        "name": "매천초등학교앞",
+        "latitude": "35.913319",
+        "longitude": "128.542577",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch95.stream/playlist.m3u8",
+        "id": "E100058"
+    },
+    {
+        "name": "명곡_본리터널",
+        "latitude": "35.798387",
+        "longitude": "128.512153",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch69.stream/playlist.m3u8",
+        "id": "E100059"
+    },
+    {
+        "name": "명덕네거리",
+        "latitude": "35.857061",
+        "longitude": "128.590937",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch82.stream/playlist.m3u8",
+        "id": "E100060"
+    },
+    {
+        "name": "무학네거리",
+        "latitude": "35.826274",
+        "longitude": "128.644473",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch175.stream/playlist.m3u8",
+        "id": "E100061"
+    },
+    {
+        "name": "반고개네거리",
+        "latitude": "35.861758",
+        "longitude": "128.571911",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch90.stream/playlist.m3u8",
+        "id": "E100062"
+    },
+    {
+        "name": "반야월네거리",
+        "latitude": "35.865888",
+        "longitude": "128.713564",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch209.stream/playlist.m3u8",
+        "id": "E100063"
+    },
+    {
+        "name": "반야월삼거리",
+        "latitude": "35.874243",
+        "longitude": "128.687502",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch31.stream/playlist.m3u8",
+        "id": "E100064"
+    },
+    {
+        "name": "반야당네거리",
+        "latitude": "35.865565",
+        "longitude": "128.593427",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch27.stream/playlist.m3u8",
+        "id": "E100065"
+    },
+    {
+        "name": "범안삼거리",
+        "latitude": "35.834314",
+        "longitude": "128.670386",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch172.stream/playlist.m3u8",
+        "id": "E100066"
+    },
+    {
+        "name": "범어네거리",
+        "latitude": "35.858944",
+        "longitude": "128.626336",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch30.stream/playlist.m3u8",
+        "id": "E100067"
+    },
+    {
+        "name": "북현네거리",
+        "latitude": "35.892358",
+        "longitude": "128.622155",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch144.stream/playlist.m3u8",
+        "id": "E100068"
+    },
+    {
+        "name": "북현오거리",
+        "latitude": "35.897897",
+        "longitude": "128.614807",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch19.stream/playlist.m3u8",
+        "id": "E100069"
+    },
+    {
+        "name": "본리네거리",
+        "latitude": "35.837272",
+        "longitude": "128.537005",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch102.stream/playlist.m3u8",
+        "id": "E100070"
+    },
+    {
+        "name": "봉산육러리",
+        "latitude": "35.864015",
+        "longitude": "128.599769",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch21.stream/playlist.m3u8",
+        "id": "E100071"
+    },
+    {
+        "name": "북구청네거리",
+        "latitude": "35.885101",
+        "longitude": "128.581816",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch221.stream/playlist.m3u8",
+        "id": "E100072"
+    },
+    {
+        "name": "북대구IC",
+        "latitude": "35.910441",
+        "longitude": "128.586184",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch117.stream/playlist.m3u8",
+        "id": "E100073"
+    },
+    {
+        "name": "북비산네거리",
+        "latitude": "35.879287",
+        "longitude": "128.571454",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch41.stream/playlist.m3u8",
+        "id": "E100074"
+    },
+    {
+        "name": "불로삼거리",
+        "latitude": "35.899728",
+        "longitude": "128.635137",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch15.stream/playlist.m3u8",
+        "id": "E100075"
+    },
+    {
+        "name": "비산네거리",
+        "latitude": "35.871969",
+        "longitude": "128.571252",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch47.stream/playlist.m3u8",
+        "id": "E100076"
+    },
+    {
+        "name": "산격대교",
+        "latitude": "35.906593",
+        "longitude": "128.601867",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch215.stream/playlist.m3u8",
+        "id": "E100077"
+    },
+    {
+        "name": "삼각지네거리",
+        "latitude": "35.853322",
+        "longitude": "128.583124",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch226.stream/playlist.m3u8",
+        "id": "E100178"
+    },
+    {
+        "name": "삼덕네거리",
+        "latitude": "35.863043",
+        "longitude": "128.60285",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch23.stream/playlist.m3u8",
+        "id": "E100078"
+    },
+    {
+        "name": "삼동교",
+        "latitude": "35.834876",
+        "longitude": "128.604934",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch8.stream/playlist.m3u8",
+        "id": "E100079"
+    },
+    {
+        "name": "상동네거리",
+        "latitude": "35.829258",
+        "longitude": "128.610616",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch219.stream/playlist.m3u8",
+        "id": "E100080"
+    },
+    {
+        "name": "상인그린힐스골프랜드",
+        "latitude": "35.818324",
+        "longitude": "128.549213",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch267.stream/playlist.m3u8",
+        "id": "E100081"
+    },
+    {
+        "name": "상인네거리",
+        "latitude": "35.818763",
+        "longitude": "128.537836",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch17.stream/playlist.m3u8",
+        "id": "E100082"
+    },
+    {
+        "name": "상화네거리",
+        "latitude": "35.809626",
+        "longitude": "128.535816",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch224.stream/playlist.m3u8",
+        "id": "E100182"
+    },
+    {
+        "name": "서대구IC",
+        "latitude": "35.878221",
+        "longitude": "128.532367",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch105.stream/playlist.m3u8",
+        "id": "E100083"
+    },
+    {
+        "name": "서대구공단네거리",
+        "latitude": "35.868675",
+        "longitude": "128.537633",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch201.stream/playlist.m3u8",
+        "id": "E100084"
+    },
+    {
+        "name": "서부정류장네거리",
+        "latitude": "35.837449",
+        "longitude": "128.557689",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch46.stream/playlist.m3u8",
+        "id": "E100085"
+    },
+    {
+        "name": "서성네거리",
+        "latitude": "35.870306",
+        "longitude": "128.587128",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch48.stream/playlist.m3u8",
+        "id": "E100086"
+    },
+    {
+        "name": "성동고가차도",
+        "latitude": "35.880724",
+        "longitude": "128.629237",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch183.stream/playlist.m3u8",
+        "id": "E100087"
+    },
+    {
+        "name": "성서IC",
+        "latitude": "35.850355",
+        "longitude": "128.520425",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch103.stream/playlist.m3u8",
+        "id": "E100088"
+    },
+    {
+        "name": "성서네거리",
+        "latitude": "35.85193",
+        "longitude": "128.507097",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch48.stream/playlist.m3u8",
+        "id": "E100089"
+    },
+    {
+        "name": "송지공원",
+        "latitude": "35.827423",
+        "longitude": "128.559282",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch269.stream/playlist.m3u8",
+        "id": "E100090"
+    },
+    {
+        "name": "수목원입구삼거리",
+        "latitude": "35.807635",
+        "longitude": "128.520668",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch214.stream/playlist.m3u8",
+        "id": "E100091"
+    },
+    {
+        "name": "수성IC",
+        "latitude": "35.836336",
+        "longitude": "128.691156",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch125.stream/playlist.m3u8",
+        "id": "E100092"
+    },
+    {
+        "name": "수성교",
+        "latitude": "35.861101",
+        "longitude": "128.609676",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch40.stream/playlist.m3u8",
+        "id": "E100093"
+    },
+    {
+        "name": "수성못오거리",
+        "latitude": "35.825418",
+        "longitude": "128.609767",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch173.stream/playlist.m3u8",
+        "id": "E100094"
+    },
+    {
+        "name": "수성시장네거리",
+        "latitude": "35.854184",
+        "longitude": "128.617185",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch166.stream/playlist.m3u8",
+        "id": "E100095"
+    },
+    {
+        "name": "수성호텔앞",
+        "latitude": "35.825544",
+        "longitude": "128.621138",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch222.stream/playlist.m3u8",
+        "id": "E100180"
+    },
+    {
+        "name": "시민운동장",
+        "latitude": "35.879201",
+        "longitude": "128.589133",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch6.stream/playlist.m3u8",
+        "id": "E100096"
+    },
+    {
+        "name": "시지고등학교",
+        "latitude": "35.829571",
+        "longitude": "128.706595",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch154.stream/playlist.m3u8",
+        "id": "E100097"
+    },
+    {
+        "name": "시청네거리",
+        "latitude": "35.871433",
+        "longitude": "128.600938",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch49.stream/playlist.m3u8",
+        "id": "E100098"
+    },
+    {
+        "name": "신남네거리",
+        "latitude": "35.864643",
+        "longitude": "128.582512",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch24.stream/playlist.m3u8",
+        "id": "E100099"
+    },
+    {
+        "name": "신당네거리",
+        "latitude": "35.851501",
+        "longitude": "128.491984",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch203.stream/playlist.m3u8",
+        "id": "E100100"
+    },
+    {
+        "name": "신매네거리",
+        "latitude": "35.840905",
+        "longitude": "128.70497",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch39.stream/playlist.m3u8",
+        "id": "E100101"
+    },
+    {
+        "name": "신서혁신도시1",
+        "latitude": "35.877495",
+        "longitude": "128.713921",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch138.stream/playlist.m3u8",
+        "id": "E100102"
+    },
+    {
+        "name": "신서혁신도시2",
+        "latitude": "35.876603",
+        "longitude": "128.724155",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch139.stream/playlist.m3u8",
+        "id": "E100103"
+    },
+    {
+        "name": "신서혁신도시3",
+        "latitude": "35.877943",
+        "longitude": "128.729996",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch140.stream/playlist.m3u8",
+        "id": "E100104"
+    },
+    {
+        "name": "신서혁신도시4",
+        "latitude": "35.87493",
+        "longitude": "128.754668",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch141.stream/playlist.m3u8",
+        "id": "E100105"
+    },
+    {
+        "name": "신서혁신도시5",
+        "latitude": "35.881033",
+        "longitude": "128.706715",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch142.stream/playlist.m3u8",
+        "id": "E100106"
+    },
+    {
+        "name": "신서혁신도시6",
+        "latitude": "35.886252",
+        "longitude": "128.703151",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch143.stream/playlist.m3u8",
+        "id": "E100107"
+    },
+    {
+        "name": "신천교",
+        "latitude": "35.871842",
+        "longitude": "128.611435",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch79.stream/playlist.m3u8",
+        "id": "E100108"
+    },
+    {
+        "name": "신천지네거리",
+        "latitude": "35.840811",
+        "longitude": "128.639096",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch199.stream/playlist.m3u8",
+        "id": "E100109"
+    },
+    {
+        "name": "신평리네거리",
+        "latitude": "35.870289",
+        "longitude": "128.554791",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch84.stream/playlist.m3u8",
+        "id": "E100110"
+    },
+    {
+        "name": "심신수련장",
+        "latitude": "35.832646",
+        "longitude": "128.597026",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch273.stream/playlist.m3u8",
+        "id": "E100111"
+    },
+    {
+        "name": "쌍계오거리",
+        "latitude": "35.70107",
+        "longitude": "128.46806",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch135.stream/playlist.m3u8",
+        "id": "E100112"
+    },
+    {
+        "name": "안지랑네거리",
+        "latitude": "35.838845",
+        "longitude": "128.57646",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch43.stream/playlist.m3u8",
+        "id": "E100113"
+    },
+    {
+        "name": "앞산네거리",
+        "latitude": "35.840225",
+        "longitude": "128.57971",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch106.stream/playlist.m3u8",
+        "id": "E100114"
+    },
+    {
+        "name": "앞산빨래터공원",
+        "latitude": "35.831677",
+        "longitude": "128.565366",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch270.stream/playlist.m3u8",
+        "id": "E100115"
+    },
+    {
+        "name": "연경지구1",
+        "latitude": "35.941844",
+        "longitude": "128.614943",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch181.stream/playlist.m3u8",
+        "id": "E100116"
+    },
+    {
+        "name": "연경지구2",
+        "latitude": "35.942217",
+        "longitude": "128.630493",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch182.stream/playlist.m3u8",
+        "id": "E100117"
+    },
+    {
+        "name": "연호네거리",
+        "latitude": "35.845772",
+        "longitude": "128.672777",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch7.stream/playlist.m3u8",
+        "id": "E100118"
+    },
+    {
+        "name": "영대네거리",
+        "latitude": "35.845314",
+        "longitude": "128.590493",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch34.stream/playlist.m3u8",
+        "id": "E100119"
+    },
+    {
+        "name": "오봉오거리",
+        "latitude": "35.889693",
+        "longitude": "128.583541",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch225.stream/playlist.m3u8",
+        "id": "E100179"
+    },
+    {
+        "name": "옥여봉사거리",
+        "latitude": "35.678231",
+        "longitude": "128.458751",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch136.stream/playlist.m3u8",
+        "id": "E100120"
+    },
+    {
+        "name": "옥포분기점",
+        "latitude": "35.789454",
+        "longitude": "128.464503",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch123.stream/playlist.m3u8",
+        "id": "E100121"
+    },
+    {
+        "name": "와룡공원삼거리",
+        "latitude": "35.859087",
+        "longitude": "128.499977",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch161.stream/playlist.m3u8",
+        "id": "E100122"
+    },
+    {
+        "name": "와룡대교남편",
+        "latitude": "35.890331",
+        "longitude": "128.511257",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch151.stream/playlist.m3u8",
+        "id": "E100123"
+    },
+    {
+        "name": "용산파출소",
+        "latitude": "35.858733",
+        "longitude": "128.521246",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch155.stream/playlist.m3u8",
+        "id": "E100124"
+    },
+    {
+        "name": "원대오거리",
+        "latitude": "35.887356",
+        "longitude": "128.575997",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch20.stream/playlist.m3u8",
+        "id": "E100125"
+    },
+    {
+        "name": "월곡네거리",
+        "latitude": "35.808197",
+        "longitude": "128.548528",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch211.stream/playlist.m3u8",
+        "id": "E100126"
+    },
+    {
+        "name": "월드컵삼거리",
+        "latitude": "35.841237",
+        "longitude": "128.684737",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch101.stream/playlist.m3u8",
+        "id": "E100127"
+    },
+    {
+        "name": "월배로송현역",
+        "latitude": "35.832865",
+        "longitude": "128.553252",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch50.stream/playlist.m3u8",
+        "id": "E100128"
+    },
+    {
+        "name": "월성네거리",
+        "latitude": "35.826184",
+        "longitude": "128.529737",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch18.stream/playlist.m3u8",
+        "id": "E100129"
+    },
+    {
+        "name": "월촌고가교교차로",
+        "latitude": "35.815147",
+        "longitude": "128.549386",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch174.stream/playlist.m3u8",
+        "id": "E100130"
+    },
+    {
+        "name": "위천삼거리",
+        "latitude": "35.760002",
+        "longitude": "128.398949",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch200.stream/playlist.m3u8",
+        "id": "E100131"
+    },
+    {
+        "name": "유천교",
+        "latitude": "35.810706",
+        "longitude": "128.515648",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch98.stream/playlist.m3u8",
+        "id": "E100132"
+    },
+    {
+        "name": "율하교동편",
+        "latitude": "35.873635",
+        "longitude": "128.696938",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch149.stream/playlist.m3u8",
+        "id": "E100133"
+    },
+    {
+        "name": "율하역",
+        "latitude": "35.870046",
+        "longitude": "128.692562",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch205.stream/playlist.m3u8",
+        "id": "E100134"
+    },
+    {
+        "name": "응암네거리",
+        "latitude": "35.655834",
+        "longitude": "128.417556",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch146.stream/playlist.m3u8",
+        "id": "E100135"
+    },
+    {
+        "name": "응암네거리1",
+        "latitude": "35.647534",
+        "longitude": "128.417688",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch147.stream/playlist.m3u8",
+        "id": "E100136"
+    },
+    {
+        "name": "이곡네거리",
+        "latitude": "35.85058",
+        "longitude": "128.515827",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch156.stream/playlist.m3u8",
+        "id": "E100137"
+    },
+    {
+        "name": "이시아폴리스삼거리",
+        "latitude": "35.927773",
+        "longitude": "128.641242",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch104.stream/playlist.m3u8",
+        "id": "E100138"
+    },
+    {
+        "name": "이현고개",
+        "latitude": "35.891163",
+        "longitude": "128.447921",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch130.stream/playlist.m3u8",
+        "id": "E100139"
+    },
+    {
+        "name": "이현삼거리",
+        "latitude": "35.878336",
+        "longitude": "128.540024",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch78.stream/playlist.m3u8",
+        "id": "E100140"
+    },
+    {
+        "name": "입석네거리",
+        "latitude": "35.891994",
+        "longitude": "128.643198",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch78.stream/playlist.m3u8",
+        "id": "E100141"
+    },
+    {
+        "name": "조야교남편",
+        "latitude": "35.903279",
+        "longitude": "128.578797",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch152.stream/playlist.m3u8",
+        "id": "E100142"
+    },
+    {
+        "name": "종각네거리",
+        "latitude": "35.869085",
+        "longitude": "128.603665",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch76.stream/playlist.m3u8",
+        "id": "E100143"
+    },
+    {
+        "name": "죽전네거리",
+        "latitude": "35.850041",
+        "longitude": "128.537413",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch14.stream/playlist.m3u8",
+        "id": "E100144"
+    },
+    {
+        "name": "중동교",
+        "latitude": "35.841411",
+        "longitude": "128.606334",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch218.stream/playlist.m3u8",
+        "id": "E100145"
+    },
+    {
+        "name": "중리사거리",
+        "latitude": "35.68919",
+        "longitude": "128.44898",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch132.stream/playlist.m3u8",
+        "id": "E100146"
+    },
+    {
+        "name": "중앙네거리",
+        "latitude": "35.871008",
+        "longitude": "128.594083",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch28.stream/playlist.m3u8",
+        "id": "E100147"
+    },
+    {
+        "name": "중앙대로",
+        "latitude": "35.867109",
+        "longitude": "128.593423",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch192.stream/playlist.m3u8",
+        "id": "E100148"
+    },
+    {
+        "name": "지산네거리",
+        "latitude": "35.824763",
+        "longitude": "128.633088",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch168.stream/playlist.m3u8",
+        "id": "E100149"
+    },
+    {
+        "name": "진천남네거리",
+        "latitude": "35.808764",
+        "longitude": "128.527408",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch223.stream/playlist.m3u8",
+        "id": "E100181"
+    },
+    {
+        "name": "청구네거리",
+        "latitude": "35.867851",
+        "longitude": "128.618365",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch96.stream/playlist.m3u8",
+        "id": "E100150"
+    },
+    {
+        "name": "초곡15M_1",
+        "latitude": "35.731749",
+        "longitude": "128.480089",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch70.stream/playlist.m3u8",
+        "id": "E100151"
+    },
+    {
+        "name": "충혼탑",
+        "latitude": "35.833023",
+        "longitude": "128.586957",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch272.stream/playlist.m3u8",
+        "id": "E100152"
+    },
+    {
+        "name": "칠곡IC",
+        "latitude": "35.941379",
+        "longitude": "128.538004",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch126.stream/playlist.m3u8",
+        "id": "E100153"
+    },
+    {
+        "name": "칠곡네거리",
+        "latitude": "35.933009",
+        "longitude": "128.548187",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch4.stream/playlist.m3u8",
+        "id": "E100154"
+    },
+    {
+        "name": "침산교",
+        "latitude": "35.900988",
+        "longitude": "128.591063",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch10.stream/playlist.m3u8",
+        "id": "E100155"
+    },
+    {
+        "name": "큰고개오거리",
+        "latitude": "35.885574",
+        "longitude": "128.632931",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch210.stream/playlist.m3u8",
+        "id": "E100157"
+    },
+    {
+        "name": "큰고개오거리",
+        "latitude": "35.885923",
+        "longitude": "128.633088",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch32.stream/playlist.m3u8",
+        "id": "E100156"
+    },
+    {
+        "name": "태전삼거리",
+        "latitude": "35.92059",
+        "longitude": "128.54636",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch38.stream/playlist.m3u8",
+        "id": "E100158"
+    },
+    {
+        "name": "태평네거리",
+        "latitude": "35.876154",
+        "longitude": "128.588244",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch88.stream/playlist.m3u8",
+        "id": "E100159"
+    },
+    {
+        "name": "파군재삼거리",
+        "latitude": "35.935967",
+        "longitude": "128.643589",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch164.stream/playlist.m3u8",
+        "id": "E100160"
+    },
+    {
+        "name": "파티마삼거리",
+        "latitude": "35.883245",
+        "longitude": "128.624291",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch25.stream/playlist.m3u8",
+        "id": "E100161"
+    },
+    {
+        "name": "팔거교교차로",
+        "latitude": "35.958641",
+        "longitude": "128.553618",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch212.stream/playlist.m3u8",
+        "id": "E100162"
+    },
+    {
+        "name": "팔공IC네거리",
+        "latitude": "35.906639",
+        "longitude": "128.640315",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch207.stream/playlist.m3u8",
+        "id": "E100163"
+    },
+    {
+        "name": "팔달교",
+        "latitude": "35.894241",
+        "longitude": "128.551941",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch29.stream/playlist.m3u8",
+        "id": "E100164"
+    },
+    {
+        "name": "팔달로",
+        "latitude": "35.907441",
+        "longitude": "128.547705",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch92.stream/playlist.m3u8",
+        "id": "E100165"
+    },
+    {
+        "name": "평리네거리",
+        "latitude": "35.878882",
+        "longitude": "128.554622",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch81.stream/playlist.m3u8",
+        "id": "E100166"
+    },
+    {
+        "name": "포산중앙사거리",
+        "latitude": "35.689247",
+        "longitude": "128.457626",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch133.stream/playlist.m3u8",
+        "id": "E100167"
+    },
+    {
+        "name": "헐티재",
+        "latitude": "35.729555",
+        "longitude": "128.560581",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch131.stream/playlist.m3u8",
+        "id": "E100168"
+    },
+    {
+        "name": "현충삼거리",
+        "latitude": "35.832837",
+        "longitude": "128.57949",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch167.stream/playlist.m3u8",
+        "id": "E100169"
+    },
+    {
+        "name": "호림네거리",
+        "latitude": "35.834876",
+        "longitude": "128.491763",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch162.stream/playlist.m3u8",
+        "id": "E100170"
+    },
+    {
+        "name": "화산리삼거리",
+        "latitude": "35.66412",
+        "longitude": "128.400561",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch148.stream/playlist.m3u8",
+        "id": "E100171"
+    },
+    {
+        "name": "화원삼거리",
+        "latitude": "35.803431",
+        "longitude": "128.49778",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch94.stream/playlist.m3u8",
+        "id": "E100172"
+    },
+    {
+        "name": "황금네거리",
+        "latitude": "35.839884",
+        "longitude": "128.624073",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch2.stream/playlist.m3u8",
+        "id": "E100173"
+    },
+    {
+        "name": "효목네거리",
+        "latitude": "35.87648",
+        "longitude": "128.644414",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch3.stream/playlist.m3u8",
+        "id": "E100174"
+    },
+    {
+        "name": "효신네거리",
+        "latitude": "35.872132",
+        "longitude": "128.63552",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch169.stream/playlist.m3u8",
+        "id": "E100175"
+    },
+    {
+        "name": "휴양림입구사거리",
+        "latitude": "35.68917",
+        "longitude": "128.46979",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch134.stream/playlist.m3u8",
+        "id": "E100176"
+    },
+    {
+        "name": "희망교",
+        "latitude": "35.8471",
+        "longitude": "128.607936",
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch9.stream/playlist.m3u8",
+        "id": "E100177"
+    }
+]

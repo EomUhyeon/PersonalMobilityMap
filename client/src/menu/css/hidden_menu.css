@@ -1,0 +1,30 @@
+.hidden_menu {
+    width: 67%;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 33%;
+    z-index: 2000;
+    display: flex;                    /* 가로 정렬 설정 */
+    flex-direction: row;              /* 가로 방향으로 정렬 */
+    justify-content: center;          /* 가로 가운데 정렬 */
+}
+.hidden_menu_closed {
+    height: 0;
+}
+.hidden_menu_bnt {
+    position: absolute;
+    top: 43vh;
+    left: 28%;
+    z-index: 1000;
+}
+
+.hidden_menu_left{
+    width: 50%;
+}
+.hidden_menu_right{
+    width: 50%;
+}
+
+  
