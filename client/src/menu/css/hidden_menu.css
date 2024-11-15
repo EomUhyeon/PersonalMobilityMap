@@ -22,9 +22,19 @@
 
 .hidden_menu_left{
     width: 50%;
-}
-.hidden_menu_right{
-    width: 50%;
+    height: 100%;
 }
 
-  
+.cctv_img {
+    width: 100%;
+    height: 40%;
+    border: 1px solid blue;
+}
+
+.hidden_menu_right{
+    width: 50%;
+    height: 100%;
+}
+
+
+

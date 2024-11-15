@@ -24,10 +24,17 @@ function HiddenMenu({ getPopup, isEmptyPopup }) {
             </button>
             <div className={hidden_menu}>
                 <div className="hidden_menu_left">
+                    <div className="cctv_img">
 
+                    </div>
+                    <div className="cctv_graph">
+
+                    </div>
                 </div>
                 <div className="hidden_menu_right">
-                    
+                    <div className="cctv_list">
+
+                    </div>
                 </div>
             </div>
         </div>

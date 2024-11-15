@@ -69,8 +69,18 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
         putPopup(popupdata);
         // 화면 중앙으로 이동
         if (markersRef.current[name]) {
+            const markerElement = markersRef.current[name].getElement();
+            markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
+
             const map = markersRef.current[name]._map;
             map.flyTo(markersRef.current[name].getLatLng(), 13, { animate: true });
+        }
+    };
+
+    const handlePopupClose = (name) => {
+        if (markersRef.current[name]) {
+            const markerElement = markersRef.current[name].getElement();
+            markerElement.style.backgroundImage = `url(${require('./CCTV_on_30px.jpg')})`;
         }
     };
 
@@ -98,7 +108,8 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
                             }
                         }}
                         eventHandlers={{
-                            popupopen: () => handlePopupOpen(marker.name)
+                            popupopen: () => handlePopupOpen(marker.name),
+                            popupclose: () => handlePopupClose(marker.name),
                         }}
                     >
                         <Popup>
