@@ -1,14 +1,14 @@
 .hidden_menu {
-    width: 67%;
+    width: 66.66%;
     height: 100vh;
     position: absolute;
     background-color: white;
     top: 0;
     left: 33%;
     z-index: 2000;
-    display: flex;                    /* 가로 정렬 설정 */
-    flex-direction: row;              /* 가로 방향으로 정렬 */
-    justify-content: center;          /* 가로 가운데 정렬 */
+    display: flex;                      /* 가로 정렬 설정 */
+    flex-direction: row;                /* 가로 방향으로 정렬 */
+    justify-content: center;            /* 가로 가운데 정렬 */
 }
 .hidden_menu_closed {
     height: 0;
@@ -28,13 +28,57 @@
 .cctv_img {
     width: 100%;
     height: 40%;
-    border: 1px solid blue;
+    display: flex;
+    justify-content: center;            /* 수평 가운데 정렬 */
+    align-items: center;                /* 수직 가운데 정렬 */
+}
+.cctvimage {
+    width: 100%;
+    object-fit: contain;
+    
 }
 
 .hidden_menu_right{
     width: 50%;
     height: 100%;
 }
+
+.cctv_list {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+/* .list-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.list-item p {
+    margin: 5px 0;
+}
+
+.list-item strong {
+    color: #333;
+} */
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.image-container {
+    margin-right: 10px;
+}
+
+.text-container p {
+    margin: 5px 0;
+}
+
 
 
 

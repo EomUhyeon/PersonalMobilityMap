@@ -175,10 +175,10 @@
         "id": "E100026"
     },
     {
-        "name": "남침산네거리",
+        "name": "학성중학교",
         "latitude": "35.883431",
         "longitude": "128.590098",
-        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch213.stream/playlist.m3u8",
+        "link": "http://211.34.248.240:1935/live/T065.stream/playlist.m3u8",
         "id": "E100027"
     },
     {

@@ -67,11 +67,11 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
     const handlePopupOpen = (name) => {
         const popupdata = [name]
         putPopup(popupdata);
-        // 화면 중앙으로 이동
+        
         if (markersRef.current[name]) {
             const markerElement = markersRef.current[name].getElement();
             markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
-
+            // 화면 중앙으로 이동
             const map = markersRef.current[name]._map;
             map.flyTo(markersRef.current[name].getLatLng(), 13, { animate: true });
         }

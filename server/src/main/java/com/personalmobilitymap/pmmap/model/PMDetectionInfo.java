@@ -16,10 +16,9 @@ public class PMDetectionInfo {
     private boolean helmet;
     private boolean firstLane;
     private boolean wrongWay;
-    @ElementCollection
-    private List<String> images;
-    @ElementCollection
-    private List<String> labels;
+    private boolean centerLine;
+    private String image;
+    private String label;
 
     public PMDetectionInfo() {}
 
@@ -41,9 +40,12 @@ public class PMDetectionInfo {
     public boolean isWrongWay() { return wrongWay; }
     public void setWrongWay(boolean wrongWay) { this.wrongWay = wrongWay; }
 
-    public List<String> getImages() { return images; }
-    public void setImages(List<String> images) { this.images = images; }
+    public boolean isCenterLine() { return centerLine; }
+    public void setCenterLine(boolean centerLine) { this.centerLine = centerLine; }
 
-    public List<String> getLabels() { return labels; }
-    public void setLabels(List<String> labels) { this.labels = labels; }
+    public String getImage() { return image; }
+    public void setImage(String image) { this.image = image; }
+
+    public String getLabel() { return label; }
+    public void setLabel(String label) { this.label = label; }
 }
