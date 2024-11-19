@@ -3,1267 +3,1448 @@
         "name": "mbc네거리",
         "latitude": "35.866703",
         "longitude": "128.62648",
-        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch44.stream/playlist.m3u8",
-        "id": "E100001"
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch44.stream/playlist.m3u8\n",
+        "id": "E100001",
+        "address": "대구광역시 범어3동 동대구로 42011"
     },
     {
         "name": "가창삼거리",
         "latitude": "35.801472",
         "longitude": "128.622411",
-        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch206.stream/playlist.m3u8",
-        "id": "E100002"
+        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch206.stream/playlist.m3u8\n",
+        "id": "E100002",
+        "address": "대구광역시 가창로 42934"
     },
     {
         "name": "감삼네거리",
         "latitude": "35.854124",
         "longitude": "128.5481",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch160.stream/playlist.m3u8",
-        "id": "E100003"
+        "id": "E100003",
+        "address": "대구광역시 내당4동 당산로 41855"
     },
     {
         "name": "강창교",
         "latitude": "35.854174",
         "longitude": "128.470244",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch100.stream/playlist.m3u8",
-        "id": "E100004"
+        "id": "E100004",
+        "address": "대구광역시 신당동 달구벌대로 42602"
     },
     {
         "name": "강촌마을교차로",
         "latitude": "35.876431",
         "longitude": "128.668687",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch171.stream/playlist.m3u8",
-        "id": "E100005"
+        "id": "E100005",
+        "address": "대구광역시 안심2동 화랑로 41135"
     },
     {
         "name": "거동네거리",
         "latitude": "35.944943",
         "longitude": "128.558313",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch158.stream/playlist.m3u8",
-        "id": "E100006"
+        "id": "E100006",
+        "address": "대구광역시 동천동 동암로 41422"
     },
     {
         "name": "건들바위네거리",
         "latitude": "35.855712",
         "longitude": "128.598484",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch37.stream/playlist.m3u8",
-        "id": "E100007"
+        "id": "E100007",
+        "address": "대구광역시 대봉2동 명덕로 41960"
     },
     {
         "name": "검단네거리",
         "latitude": "35.906028",
         "longitude": "128.619153",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch165.stream/playlist.m3u8",
-        "id": "E100008"
+        "id": "E100008",
+        "address": "대구광역시 복현2동 복현로 41520"
     },
     {
         "name": "경기장네거리",
         "latitude": "35.832985",
         "longitude": "128.683564",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch33.stream/playlist.m3u8",
-        "id": "E100009"
+        "id": "E100009",
+        "address": "대구광역시 고산동 42250"
     },
     {
         "name": "경대교",
         "latitude": "35.886359",
         "longitude": "128.601905",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch11.stream/playlist.m3u8",
-        "id": "E100010"
+        "id": "E100010",
+        "address": "대구광역시 산격4동 대현로 경대교 41568"
     },
     {
         "name": "경대부문",
         "latitude": "35.89238",
         "longitude": "128.609402",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch89.stream/playlist.m3u8",
-        "id": "E100011"
+        "id": "E100011",
+        "address": "대구광역시 산격3동 대학로 80 경북대학교 41566"
     },
     {
         "name": "계명네거리",
         "latitude": "35.856101",
         "longitude": "128.58304",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch85.stream/playlist.m3u8",
-        "id": "E100012"
+        "id": "E100012",
+        "address": "대구광역시 대명3동 명덕로 118 42409"
     },
     {
         "name": "계산오거리",
         "latitude": "35.866577",
         "longitude": "128.587811",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch99.stream/playlist.m3u8",
-        "id": "E100013"
+        "id": "E100013",
+        "address": "대구광역시 덕산동 달구벌대로 41966"
     },
     {
         "name": "고모로",
         "latitude": "35.862289",
         "longitude": "128.675733",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch127.stream/playlist.m3u8",
-        "id": "E100014"
+        "id": "E100014",
+        "address": "대구광역시 고산2동 고모로 41162"
     },
     {
         "name": "공산수원지삼거리",
         "latitude": "35.90246",
         "longitude": "128.603856",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch13.stream/playlist.m3u8",
-        "id": "E100015"
+        "id": "E100015",
+        "address": "대구광역시 산격2동 동북로 41533"
     },
     {
         "name": "공평네거리",
         "latitude": "35.86981",
         "longitude": "128.600041",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch77.stream/playlist.m3u8",
-        "id": "E100016"
+        "id": "E100016",
+        "address": "대구광역시 성내1동 공평로 55 41938"
     },
     {
         "name": "공항교교차로",
         "latitude": "35.899009",
         "longitude": "128.622479",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch159.stream/playlist.m3u8",
-        "id": "E100017"
+        "id": "E100017",
+        "address": "대구광역시 복현2동 복현로 41528"
     },
     {
         "name": "관계삼거리",
         "latitude": "35.818824",
         "longitude": "128.64952",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch5.stream/playlist.m3u8",
-        "id": "E100018"
+        "id": "E100018",
+        "address": "대구광역시 범물1동 용지고가차도 도시계획도로 42241"
     },
     {
         "name": "교동네거리",
         "latitude": "35.873643",
         "longitude": "128.601048",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch45.stream/playlist.m3u8",
-        "id": "E100019"
+        "id": "E100019",
+        "address": "대구광역시 성내1동 태평로 41912"
     },
     {
         "name": "금리사거리",
         "latitude": "35.681649",
         "longitude": "128.450545",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch137.stream/playlist.m3u8",
-        "id": "E100020"
+        "id": "E100020",
+        "address": "대구광역시 테크노폴리스 산업단지 테크노순환로1길 42995"
     },
     {
         "name": "금호분기점",
         "latitude": "35.894312",
         "longitude": "128.53474",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch120.stream/playlist.m3u8",
-        "id": "E100021"
+        "id": "E100021",
+        "address": "대구광역시 팔달동 경부고속도로 41489"
     },
     {
         "name": "김흥2_15M-1",
         "latitude": "35.745321",
         "longitude": "128.490033",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch71.stream/playlist.m3u8",
-        "id": "E100023"
+        "id": "E100023",
+        "address": "대구광역시 테크노폴리스로 42990"
     },
     {
         "name": "남대구IC",
         "latitude": "35.841363",
         "longitude": "128.527436",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch119.stream/playlist.m3u8",
-        "id": "E100024"
+        "id": "E100024",
+        "address": "대구광역시 장기동 중부내륙고속도로지선 42691"
     },
     {
         "name": "남대구IC삼거리",
         "latitude": "35.836796",
         "longitude": "128.522547",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch208.stream/playlist.m3u8",
-        "id": "E100025"
+        "id": "E100025",
+        "address": "대구광역시 월성2동 성서공단로 359 42699"
     },
     {
         "name": "남문네거리",
         "latitude": "35.860994",
         "longitude": "128.592425",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch83.stream/playlist.m3u8",
-        "id": "E100026"
+        "id": "E100026",
+        "address": "대구광역시 중구 남산동 42410"
     },
     {
         "name": "학성중학교",
         "latitude": "35.883431",
         "longitude": "128.590098",
         "link": "http://211.34.248.240:1935/live/T065.stream/playlist.m3u8",
-        "id": "E100027"
+        "id": "E100027",
+        "address": "대구광역시 고성동3가 옥산로 41595"
     },
     {
         "name": "능성",
         "latitude": "35.963073",
         "longitude": "128.739519",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch128.stream/playlist.m3u8",
-        "id": "E100028"
+        "id": "E100028",
+        "address": "대구광역시 능성동 38405"
     },
     {
         "name": "달성네거리",
         "latitude": "35.877358",
         "longitude": "128.58148",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch86.stream/playlist.m3u8",
-        "id": "E100029"
+        "id": "E100029",
+        "address": "대구광역시 성내3동 달성로 41922"
     },
     {
         "name": "대구공고네거리",
         "latitude": "35.88125",
         "longitude": "128.61422",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch26.stream/playlist.m3u8",
-        "id": "E100030"
+        "id": "E100030",
+        "address": "대구광역시 신암3동 아양로 41207"
     },
     {
         "name": "대구역네거리",
         "latitude": "35.874851",
         "longitude": "128.595069",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch87.stream/playlist.m3u8",
-        "id": "E100031"
+        "id": "E100031",
+        "address": "대구광역시 성내1동 태평로 160 41912"
     },
     {
         "name": "대구은행네거리",
         "latitude": "35.859642",
         "longitude": "128.614208",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch93.stream/playlist.m3u8",
-        "id": "E100032"
+        "id": "E100032",
+        "address": "대구광역시 수성2·3가동 달구벌대로 42016"
     },
     {
         "name": "대덕문화전당",
         "latitude": "35.831892",
         "longitude": "128.577858",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch271.stream/playlist.m3u8",
-        "id": "E100033"
+        "id": "E100033",
+        "address": "대구광역시 대명9동 앞산순환로 42490"
     },
     {
         "name": "대덕산임휴사",
         "latitude": "35.809224",
         "longitude": "128.55659",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch266.stream/playlist.m3u8",
-        "id": "E100034"
+        "id": "E100034",
+        "address": "대구광역시 상인3동 앞산순환로 42815"
     },
     {
         "name": "대덕승마장",
         "latitude": "35.825593",
         "longitude": "128.555351",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch268.stream/playlist.m3u8",
-        "id": "E100035"
+        "id": "E100035",
+        "address": "대구광역시 송현1동 앞산순환로 42819"
     },
     {
         "name": "대리삼거리",
         "latitude": "35.663474",
         "longitude": "128.423907",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch145.stream/playlist.m3u8",
-        "id": "E100036"
+        "id": "E100036",
+        "address": "대구광역시 국가산단북로 43008"
     },
     {
         "name": "대봉교",
         "latitude": "35.854998",
         "longitude": "128.607077",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch204.stream/playlist.m3u8",
-        "id": "E100037"
+        "id": "E100037",
+        "address": "대구광역시 이천동 명덕로 대봉철교 42431"
     },
     {
         "name": "대실역네거리",
         "latitude": "35.857066",
         "longitude": "128.465696",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch153.stream/playlist.m3u8",
-        "id": "E100038"
+        "id": "E100038",
+        "address": "대구광역시 달구벌대로 42920"
     },
     {
         "name": "대천교삼거리",
         "latitude": "35.818399",
         "longitude": "128.502613",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch163.stream/playlist.m3u8",
-        "id": "E100039"
+        "id": "E100039",
+        "address": "대구광역시 월성2동 달서대로 42478"
     },
     {
         "name": "대천지하도네거리",
         "latitude": "35.815436",
         "longitude": "128.507089",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch216.stream/playlist.m3u8",
-        "id": "E100040"
+        "id": "E100040",
+        "address": "대구광역시 월성2동 달서대로 42478"
     },
     {
         "name": "덕곡",
         "latitude": "35.992322",
         "longitude": "128.614994",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch129.stream/playlist.m3u8",
-        "id": "E100041"
+        "id": "E100041",
+        "address": "대구광역시 동구 팔공산로 39856"
     },
     {
         "name": "덕곡치안센터",
         "latitude": "35.833669",
         "longitude": "128.600633",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch274.stream/playlist.m3u8",
-        "id": "E100042"
+        "id": "E100042",
+        "address": "대구광역시 봉덕3동 효성로 42507"
     },
     {
         "name": "도곡네거리",
         "latitude": "35.927446",
         "longitude": "128.598854",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch202.stream/playlist.m3u8",
-        "id": "E100043"
+        "id": "E100043",
+        "address": "대구광역시 무태조야동 호국로57길 41474"
     },
     {
         "name": "도동분기점",
         "latitude": "35.914472",
         "longitude": "128.656009",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch121.stream/playlist.m3u8",
-        "id": "E100044"
+        "id": "E100044",
+        "address": "대구광역시 봉무동 경부고속도로 41031"
     },
     {
         "name": "도청교",
         "latitude": "35.888176",
         "longitude": "128.598357",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch36.stream/playlist.m3u8",
-        "id": "E100045"
+        "id": "E100045",
+        "address": "대구광역시 침산2동 중앙대로 41561"
     },
     {
         "name": "동대구IC",
         "latitude": "35.883318",
         "longitude": "128.698058",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch116.stream/playlist.m3u8",
-        "id": "E100046"
+        "id": "E100046",
+        "address": "대구광역시 해안동 경부고속도로 41059"
     },
     {
         "name": "동대구역네거리",
         "latitude": "35.876816",
         "longitude": "128.625649",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch1.stream/playlist.m3u8",
-        "id": "E100047"
+        "id": "E100047",
+        "address": "대구광역시 신천3동 동부로 121 41228"
     },
     {
         "name": "동산네거리",
         "latitude": "35.870339",
         "longitude": "128.582362",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch80.stream/playlist.m3u8",
-        "id": "E100048"
+        "id": "E100048",
+        "address": "대구광역시 동산동 41931"
     },
     {
         "name": "동신교",
         "latitude": "35.868238",
         "longitude": "128.613438",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch217.stream/playlist.m3u8",
-        "id": "E100049"
+        "id": "E100049",
+        "address": "대구광역시 동인동4가 신천대로 41267"
     },
     {
         "name": "동인네거리",
         "latitude": "35.872427",
         "longitude": "128.604312",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch42.stream/playlist.m3u8",
-        "id": "E100050"
+        "id": "E100050",
+        "address": "대구광역시 성내1동 태평로 41912"
     },
     {
         "name": "동촌초교교차로",
         "latitude": "35.883789",
         "longitude": "128.658216",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch170.stream/playlist.m3u8",
-        "id": "E100051"
+        "id": "E100051",
+        "address": "대구광역시 동촌동 해동로 41143"
     },
     {
         "name": "두류공원네거리",
         "latitude": "35.847046",
         "longitude": "128.566818",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch157.stream/playlist.m3u8",
-        "id": "E100052"
+        "id": "E100052",
+        "address": "대구광역시 대명4동 성당로 42471"
     },
     {
         "name": "두류네거리",
         "latitude": "35.857778",
         "longitude": "128.557636",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch22.stream/playlist.m3u8",
-        "id": "E100053"
+        "id": "E100053",
+        "address": "대구광역시 두류1·2동 달구벌대로 1770 41864"
     },
     {
         "name": "두산오거리",
         "latitude": "35.82985",
         "longitude": "128.622983",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch97.stream/playlist.m3u8",
-        "id": "E100054"
+        "id": "E100054",
+        "address": "대구광역시 두산동 수성못길 42203"
     },
     {
         "name": "들안길삼거리",
         "latitude": "35.829703",
         "longitude": "128.616792",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch220.stream/playlist.m3u8",
-        "id": "E100055"
+        "id": "E100055",
+        "address": "대구광역시 두산동 무학로 42168"
     },
     {
         "name": "만촌네거리",
         "latitude": "35.85915",
         "longitude": "128.645698",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch35.stream/playlist.m3u8",
-        "id": "E100056"
+        "id": "E100056",
+        "address": "대구광역시 만촌2동 달구벌대로 2587 42062"
     },
     {
         "name": "만평네거리",
         "latitude": "35.889468",
         "longitude": "128.562408",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch12.stream/playlist.m3u8",
-        "id": "E100057"
+        "id": "E100057",
+        "address": "대구광역시 비산7동 서대구로 41709"
     },
     {
         "name": "매천초등학교앞",
         "latitude": "35.913319",
         "longitude": "128.542577",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch95.stream/playlist.m3u8",
-        "id": "E100058"
+        "id": "E100058",
+        "address": "대구광역시 매천동 매천로 41486"
     },
     {
         "name": "명곡_본리터널",
         "latitude": "35.798387",
         "longitude": "128.512153",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch69.stream/playlist.m3u8",
-        "id": "E100059"
+        "id": "E100059",
+        "address": "대구광역시 테크노폴리스로 42966"
     },
     {
         "name": "명덕네거리",
         "latitude": "35.857061",
         "longitude": "128.590937",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch82.stream/playlist.m3u8",
-        "id": "E100060"
+        "id": "E100060",
+        "address": "대구광역시 대봉2동 명덕로 41960"
     },
     {
         "name": "무학네거리",
         "latitude": "35.826274",
         "longitude": "128.644473",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch175.stream/playlist.m3u8",
-        "id": "E100061"
+        "id": "E100061",
+        "address": "대구광역시 지산1동 청호로 문화셀프 알뜰주유소 42200"
     },
     {
         "name": "반고개네거리",
         "latitude": "35.861758",
         "longitude": "128.571911",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch90.stream/playlist.m3u8",
-        "id": "E100062"
+        "id": "E100062",
+        "address": "대구광역시 두류1·2동 달구벌대로 42664"
     },
     {
         "name": "반야월네거리",
         "latitude": "35.865888",
         "longitude": "128.713564",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch209.stream/playlist.m3u8",
-        "id": "E100063"
+        "id": "E100063",
+        "address": "대구광역시 안심3동 경안로 41112"
     },
     {
         "name": "반야월삼거리",
         "latitude": "35.874243",
         "longitude": "128.687502",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch31.stream/playlist.m3u8",
-        "id": "E100064"
+        "id": "E100064",
+        "address": "대구광역시 안심2동 41124"
     },
     {
         "name": "반야당네거리",
         "latitude": "35.865565",
         "longitude": "128.593427",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch27.stream/playlist.m3u8",
-        "id": "E100065"
+        "id": "E100065",
+        "address": "대구광역시 성내1동 달구벌대로 41936"
     },
     {
         "name": "범안삼거리",
         "latitude": "35.834314",
         "longitude": "128.670386",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch172.stream/playlist.m3u8",
-        "id": "E100066"
+        "id": "E100066",
+        "address": "대구광역시 고산2동 유니버시아드로 42250"
     },
     {
         "name": "범어네거리",
         "latitude": "35.858944",
         "longitude": "128.626336",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch30.stream/playlist.m3u8",
-        "id": "E100067"
+        "id": "E100067",
+        "address": "대구광역시 범어1동 달구벌대로 42085"
     },
     {
         "name": "북현네거리",
         "latitude": "35.892358",
         "longitude": "128.622155",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch144.stream/playlist.m3u8",
-        "id": "E100068"
+        "id": "E100068",
+        "address": "대구광역시 복현1동 경대로 41565"
     },
     {
         "name": "북현오거리",
         "latitude": "35.897897",
         "longitude": "128.614807",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch19.stream/playlist.m3u8",
-        "id": "E100069"
+        "id": "E100069",
+        "address": "대구광역시 산격2동 복현고가차도 41562"
     },
     {
         "name": "본리네거리",
         "latitude": "35.837272",
         "longitude": "128.537005",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch102.stream/playlist.m3u8",
-        "id": "E100070"
+        "id": "E100070",
+        "address": "대구광역시 본동 와룡로 42730"
     },
     {
         "name": "봉산육러리",
         "latitude": "35.864015",
         "longitude": "128.599769",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch21.stream/playlist.m3u8",
-        "id": "E100071"
+        "id": "E100071",
+        "address": "대구광역시 삼덕동1가 달구벌대로 41940"
     },
     {
         "name": "북구청네거리",
         "latitude": "35.885101",
         "longitude": "128.581816",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch221.stream/playlist.m3u8",
-        "id": "E100072"
+        "id": "E100072",
+        "address": "대구광역시 원대동2가 옥산로 41558"
     },
     {
         "name": "북대구IC",
         "latitude": "35.910441",
         "longitude": "128.586184",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch117.stream/playlist.m3u8",
-        "id": "E100073"
+        "id": "E100073",
+        "address": "대구광역시 무태조야동 12 41500"
     },
     {
         "name": "북비산네거리",
         "latitude": "35.879287",
         "longitude": "128.571454",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch41.stream/playlist.m3u8",
-        "id": "E100074"
+        "id": "E100074",
+        "address": "대구광역시 비산6동 달서로 41808"
     },
     {
         "name": "불로삼거리",
         "latitude": "35.899728",
         "longitude": "128.635137",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch15.stream/playlist.m3u8",
-        "id": "E100075"
+        "id": "E100075",
+        "address": "대구광역시 불로·봉무동 공항로 41049"
     },
     {
         "name": "비산네거리",
         "latitude": "35.871969",
         "longitude": "128.571252",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch47.stream/playlist.m3u8",
-        "id": "E100076"
+        "id": "E100076",
+        "address": "대구광역시 비산4동 달서로 41808"
     },
     {
         "name": "산격대교",
         "latitude": "35.906593",
         "longitude": "128.601867",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch215.stream/playlist.m3u8",
-        "id": "E100077"
+        "id": "E100077",
+        "address": "대구광역시 산격2동 산격대교 41533"
     },
     {
         "name": "삼각지네거리",
         "latitude": "35.853322",
         "longitude": "128.583124",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch226.stream/playlist.m3u8",
-        "id": "E100178"
+        "id": "E100178",
+        "address": "대구광역시 대명3동 현충로 42412"
     },
     {
         "name": "삼덕네거리",
         "latitude": "35.863043",
         "longitude": "128.60285",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch23.stream/playlist.m3u8",
-        "id": "E100078"
+        "id": "E100078",
+        "address": "대구광역시 대봉1동 달구벌대로 41940"
     },
     {
         "name": "삼동교",
         "latitude": "35.834876",
         "longitude": "128.604934",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch8.stream/playlist.m3u8",
-        "id": "E100079"
+        "id": "E100079",
+        "address": "대구광역시 봉덕2동 신천대로 상동교서편 42159"
     },
     {
         "name": "상동네거리",
         "latitude": "35.829258",
         "longitude": "128.610616",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch219.stream/playlist.m3u8",
-        "id": "E100080"
+        "id": "E100080",
+        "address": "대구광역시 상동 무학로 42168"
     },
     {
         "name": "상인그린힐스골프랜드",
         "latitude": "35.818324",
         "longitude": "128.549213",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch267.stream/playlist.m3u8",
-        "id": "E100081"
+        "id": "E100081",
+        "address": "대구광역시 상인1동 42804"
     },
     {
         "name": "상인네거리",
         "latitude": "35.818763",
         "longitude": "128.537836",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch17.stream/playlist.m3u8",
-        "id": "E100082"
+        "id": "E100082",
+        "address": "대구광역시 상인2동 월배로 42784"
     },
     {
         "name": "상화네거리",
         "latitude": "35.809626",
         "longitude": "128.535816",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch224.stream/playlist.m3u8",
-        "id": "E100182"
+        "id": "E100182",
+        "address": "대구광역시 도원동 상화로 42790"
     },
     {
         "name": "서대구IC",
         "latitude": "35.878221",
         "longitude": "128.532367",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch105.stream/playlist.m3u8",
-        "id": "E100083"
+        "id": "E100083",
+        "address": "대구광역시 상리동 중부내륙고속도로지선 41490"
     },
     {
         "name": "서대구공단네거리",
         "latitude": "35.868675",
         "longitude": "128.537633",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch201.stream/playlist.m3u8",
-        "id": "E100084"
+        "id": "E100084",
+        "address": "대구광역시 이현동 와룡로 41759"
     },
     {
         "name": "서부정류장네거리",
         "latitude": "35.837449",
         "longitude": "128.557689",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch46.stream/playlist.m3u8",
-        "id": "E100085"
+        "id": "E100085",
+        "address": "대구광역시 대명11동 월배로 42819"
     },
     {
         "name": "서성네거리",
         "latitude": "35.870306",
         "longitude": "128.587128",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch48.stream/playlist.m3u8",
-        "id": "E100086"
+        "id": "E100086",
+        "address": "대구광역시 서성로1가 서성로 41921"
     },
     {
         "name": "성동고가차도",
         "latitude": "35.880724",
         "longitude": "128.629237",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch183.stream/playlist.m3u8",
-        "id": "E100087"
+        "id": "E100087",
+        "address": "대구광역시 신암4동 41244"
     },
     {
         "name": "성서IC",
         "latitude": "35.850355",
         "longitude": "128.520425",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch103.stream/playlist.m3u8",
-        "id": "E100088"
+        "id": "E100088",
+        "address": "대구광역시 용산2동 달구벌대로 42620"
     },
     {
         "name": "성서네거리",
         "latitude": "35.85193",
         "longitude": "128.507097",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch48.stream/playlist.m3u8",
-        "id": "E100089"
+        "id": "E100089",
+        "address": "대구광역시 이곡2동 달구벌대로 42620"
     },
     {
         "name": "송지공원",
         "latitude": "35.827423",
         "longitude": "128.559282",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch269.stream/playlist.m3u8",
-        "id": "E100090"
+        "id": "E100090",
+        "address": "대구광역시 송현1동 앞산순환로 42819"
     },
     {
         "name": "수목원입구삼거리",
         "latitude": "35.807635",
         "longitude": "128.520668",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch214.stream/playlist.m3u8",
-        "id": "E100091"
+        "id": "E100091",
+        "address": "대구광역시 상인3동 상화로 지하차도 42832"
     },
     {
         "name": "수성IC",
         "latitude": "35.836336",
         "longitude": "128.691156",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch125.stream/playlist.m3u8",
-        "id": "E100092"
+        "id": "E100092",
+        "address": "대구광역시 고산동 중앙고속도로 42259"
     },
     {
         "name": "수성교",
         "latitude": "35.861101",
         "longitude": "128.609676",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch40.stream/playlist.m3u8",
-        "id": "E100093"
+        "id": "E100093",
+        "address": "대구광역시 수성4가동 달구벌대로 42127"
     },
     {
         "name": "수성못오거리",
         "latitude": "35.825418",
         "longitude": "128.609767",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch173.stream/playlist.m3u8",
-        "id": "E100094"
+        "id": "E100094",
+        "address": "대구광역시 상동 신천동로 42159"
     },
     {
         "name": "수성시장네거리",
         "latitude": "35.854184",
         "longitude": "128.617185",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch166.stream/playlist.m3u8",
-        "id": "E100095"
+        "id": "E100095",
+        "address": "대구광역시 수성2·3가동 명덕로 42119"
     },
     {
         "name": "수성호텔앞",
         "latitude": "35.825544",
         "longitude": "128.621138",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch222.stream/playlist.m3u8",
-        "id": "E100180"
+        "id": "E100180",
+        "address": "대구광역시 두산동 용학로 42168"
     },
     {
         "name": "시민운동장",
         "latitude": "35.879201",
         "longitude": "128.589133",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch6.stream/playlist.m3u8",
-        "id": "E100096"
+        "id": "E100096",
+        "address": "대구광역시 칠성동2가 칠성남로15길 41587"
     },
     {
         "name": "시지고등학교",
         "latitude": "35.829571",
         "longitude": "128.706595",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch154.stream/playlist.m3u8",
-        "id": "E100097"
+        "id": "E100097",
+        "address": "대구광역시 고산1동 신매로 6 시지고등학교 42276"
     },
     {
         "name": "시청네거리",
         "latitude": "35.871433",
         "longitude": "128.600938",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch49.stream/playlist.m3u8",
-        "id": "E100098"
+        "id": "E100098",
+        "address": "대구광역시 성내1동 경상감영길 41913"
     },
     {
         "name": "신남네거리",
         "latitude": "35.864643",
         "longitude": "128.582512",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch24.stream/playlist.m3u8",
-        "id": "E100099"
+        "id": "E100099",
+        "address": "대구광역시 남산동 41978"
     },
     {
         "name": "신당네거리",
         "latitude": "35.851501",
         "longitude": "128.491984",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch203.stream/playlist.m3u8",
-        "id": "E100100"
+        "id": "E100100",
+        "address": "대구광역시 신당동 달서대로 계명대 42613"
     },
     {
         "name": "신매네거리",
         "latitude": "35.840905",
         "longitude": "128.70497",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch39.stream/playlist.m3u8",
-        "id": "E100101"
+        "id": "E100101",
+        "address": "대구광역시 고산3동 고산로 42266"
     },
     {
         "name": "신서혁신도시1",
         "latitude": "35.877495",
         "longitude": "128.713921",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch138.stream/playlist.m3u8",
-        "id": "E100102"
+        "id": "E100102",
+        "address": "대구광역시 혁신동 혁신대로 41112"
     },
     {
         "name": "신서혁신도시2",
         "latitude": "35.876603",
         "longitude": "128.724155",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch139.stream/playlist.m3u8",
-        "id": "E100103"
+        "id": "E100103",
+        "address": "대구광역시 혁신동 혁신대로 41112"
     },
     {
         "name": "신서혁신도시3",
         "latitude": "35.877943",
         "longitude": "128.729996",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch140.stream/playlist.m3u8",
-        "id": "E100104"
+        "id": "E100104",
+        "address": "대구광역시 혁신동 첨단로 30 CU 41069"
     },
     {
         "name": "신서혁신도시4",
         "latitude": "35.87493",
         "longitude": "128.754668",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch141.stream/playlist.m3u8",
-        "id": "E100105"
+        "id": "E100105",
+        "address": "대구광역시 혁신동 안심로 41076"
     },
     {
         "name": "신서혁신도시5",
         "latitude": "35.881033",
         "longitude": "128.706715",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch142.stream/playlist.m3u8",
-        "id": "E100106"
+        "id": "E100106",
+        "address": "대구광역시 안심2동 율암로 41066"
     },
     {
         "name": "신서혁신도시6",
         "latitude": "35.886252",
         "longitude": "128.703151",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch143.stream/playlist.m3u8",
-        "id": "E100107"
+        "id": "E100107",
+        "address": "대구광역시 안심2동 율암로 41059"
     },
     {
         "name": "신천교",
         "latitude": "35.871842",
         "longitude": "128.611435",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch79.stream/playlist.m3u8",
-        "id": "E100108"
+        "id": "E100108",
+        "address": "대구광역시 동인동3가 국채보상로149길 41266"
     },
     {
         "name": "신천지네거리",
         "latitude": "35.840811",
         "longitude": "128.639096",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch199.stream/playlist.m3u8",
-        "id": "E100109"
+        "id": "E100109",
+        "address": "대구광역시 황금1동 청수로 42179"
     },
     {
         "name": "신평리네거리",
         "latitude": "35.870289",
         "longitude": "128.554791",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch84.stream/playlist.m3u8",
-        "id": "E100110"
+        "id": "E100110",
+        "address": "대구광역시 평리5동 국채보상로 41837"
     },
     {
         "name": "심신수련장",
         "latitude": "35.832646",
         "longitude": "128.597026",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch273.stream/playlist.m3u8",
-        "id": "E100111"
+        "id": "E100111",
+        "address": "대구광역시 봉덕3동 앞산순환로 42507"
     },
     {
         "name": "쌍계오거리",
         "latitude": "35.70107",
         "longitude": "128.46806",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch135.stream/playlist.m3u8",
-        "id": "E100112"
+        "id": "E100112",
+        "address": "대구광역시 42988"
     },
     {
         "name": "안지랑네거리",
         "latitude": "35.838845",
         "longitude": "128.57646",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch43.stream/playlist.m3u8",
-        "id": "E100113"
+        "id": "E100113",
+        "address": "대구광역시 대명9동 대명로36길 우성마트 42488"
     },
     {
         "name": "앞산네거리",
         "latitude": "35.840225",
         "longitude": "128.57971",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch106.stream/playlist.m3u8",
-        "id": "E100114"
+        "id": "E100114",
+        "address": "대구광역시 대명9동 대명로 42420"
     },
     {
         "name": "앞산빨래터공원",
         "latitude": "35.831677",
         "longitude": "128.565366",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch270.stream/playlist.m3u8",
-        "id": "E100115"
+        "id": "E100115",
+        "address": "대구광역시 대명6동 22 42492"
     },
     {
         "name": "연경지구1",
         "latitude": "35.941844",
         "longitude": "128.614943",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch181.stream/playlist.m3u8",
-        "id": "E100116"
+        "id": "E100116",
+        "address": "대구광역시 무태조야동 연경지묘로 41474"
     },
     {
         "name": "연경지구2",
         "latitude": "35.942217",
         "longitude": "128.630493",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch182.stream/playlist.m3u8",
-        "id": "E100117"
+        "id": "E100117",
+        "address": "대구광역시 동구 41005"
     },
     {
         "name": "연호네거리",
         "latitude": "35.845772",
         "longitude": "128.672777",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch7.stream/playlist.m3u8",
-        "id": "E100118"
+        "id": "E100118",
+        "address": "대구광역시 고산2동 달구벌대로 42250"
     },
     {
         "name": "영대네거리",
         "latitude": "35.845314",
         "longitude": "128.590493",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch34.stream/playlist.m3u8",
-        "id": "E100119"
+        "id": "E100119",
+        "address": "대구광역시 대명5동 대명로 42447"
     },
     {
         "name": "오봉오거리",
         "latitude": "35.889693",
         "longitude": "128.583541",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch225.stream/playlist.m3u8",
-        "id": "E100179"
+        "id": "E100179",
+        "address": "대구광역시 침산3동 침산남로 41550"
     },
     {
         "name": "옥여봉사거리",
         "latitude": "35.678231",
         "longitude": "128.458751",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch136.stream/playlist.m3u8",
-        "id": "E100120"
+        "id": "E100120",
+        "address": "대구광역시 테크노폴리스 산업단지 테크노순환로 42995"
     },
     {
         "name": "옥포분기점",
         "latitude": "35.789454",
         "longitude": "128.464503",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch123.stream/playlist.m3u8",
-        "id": "E100121"
+        "id": "E100121",
+        "address": "대구광역시 중부내륙고속도로지선 42970"
     },
     {
         "name": "와룡공원삼거리",
         "latitude": "35.859087",
         "longitude": "128.499977",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch161.stream/playlist.m3u8",
-        "id": "E100122"
+        "id": "E100122",
+        "address": "대구광역시 이곡2동 성서서로 42611"
     },
     {
         "name": "와룡대교남편",
         "latitude": "35.890331",
         "longitude": "128.511257",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch151.stream/playlist.m3u8",
-        "id": "E100123"
+        "id": "E100123",
+        "address": "대구광역시 화진금봉아파트 서재로 41599"
     },
     {
         "name": "용산파출소",
         "latitude": "35.858733",
         "longitude": "128.521246",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch155.stream/playlist.m3u8",
-        "id": "E100124"
+        "id": "E100124",
+        "address": "대구광역시 용산2동 선원로 42617"
     },
     {
         "name": "원대오거리",
         "latitude": "35.887356",
         "longitude": "128.575997",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch20.stream/playlist.m3u8",
-        "id": "E100125"
+        "id": "E100125",
+        "address": "대구광역시 원대동2가 옥산로 41558"
     },
     {
         "name": "월곡네거리",
         "latitude": "35.808197",
         "longitude": "128.548528",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch211.stream/playlist.m3u8",
-        "id": "E100126"
+        "id": "E100126",
+        "address": "대구광역시 상인3동 상화로 지하차도 42832"
     },
     {
         "name": "월드컵삼거리",
         "latitude": "35.841237",
         "longitude": "128.684737",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch101.stream/playlist.m3u8",
-        "id": "E100127"
+        "id": "E100127",
+        "address": "대구광역시 고산2동 달구벌대로 42250"
     },
     {
         "name": "월배로송현역",
         "latitude": "35.832865",
         "longitude": "128.553252",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch50.stream/playlist.m3u8",
-        "id": "E100128"
+        "id": "E100128",
+        "address": "대구광역시 송현2동 월배로 아진주유소 42819"
     },
     {
         "name": "월성네거리",
         "latitude": "35.826184",
         "longitude": "128.529737",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch18.stream/playlist.m3u8",
-        "id": "E100129"
+        "id": "E100129",
+        "address": "대구광역시 월성2동 월곡로 42751"
     },
     {
         "name": "월촌고가교교차로",
         "latitude": "35.815147",
         "longitude": "128.549386",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch174.stream/playlist.m3u8",
-        "id": "E100130"
+        "id": "E100130",
+        "address": "대구광역시 상인3동 상화북로 42812"
     },
     {
         "name": "위천삼거리",
         "latitude": "35.760002",
         "longitude": "128.398949",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch200.stream/playlist.m3u8",
-        "id": "E100131"
+        "id": "E100131",
+        "address": "대구광역시 비슬로 42968"
     },
     {
         "name": "유천교",
         "latitude": "35.810706",
         "longitude": "128.515648",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch98.stream/playlist.m3u8",
-        "id": "E100132"
+        "id": "E100132",
+        "address": "대구광역시 진천동 상화로 42763"
     },
     {
         "name": "율하교동편",
         "latitude": "35.873635",
         "longitude": "128.696938",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch149.stream/playlist.m3u8",
-        "id": "E100133"
+        "id": "E100133",
+        "address": "대구광역시 안심2동 범안로 41122"
     },
     {
         "name": "율하역",
         "latitude": "35.870046",
         "longitude": "128.692562",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch205.stream/playlist.m3u8",
-        "id": "E100134"
+        "id": "E100134",
+        "address": "대구광역시 안심1동 안심로 41122"
     },
     {
         "name": "응암네거리",
         "latitude": "35.655834",
         "longitude": "128.417556",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch146.stream/playlist.m3u8",
-        "id": "E100135"
+        "id": "E100135",
+        "address": "대구광역시 과학마을로 43010"
     },
     {
         "name": "응암네거리1",
         "latitude": "35.647534",
         "longitude": "128.417688",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch147.stream/playlist.m3u8",
-        "id": "E100136"
+        "id": "E100136",
+        "address": "대구광역시 대구국가산업단지 국가산단대로 43010"
     },
     {
         "name": "이곡네거리",
         "latitude": "35.85058",
         "longitude": "128.515827",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch156.stream/playlist.m3u8",
-        "id": "E100137"
+        "id": "E100137",
+        "address": "대구광역시 이곡1동 성서동로 42699"
     },
     {
         "name": "이시아폴리스삼거리",
         "latitude": "35.927773",
         "longitude": "128.641242",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch104.stream/playlist.m3u8",
-        "id": "E100138"
+        "id": "E100138",
+        "address": "대구광역시 불로·봉무동 위남로 41027"
     },
     {
         "name": "이현고개",
         "latitude": "35.891163",
         "longitude": "128.447921",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch130.stream/playlist.m3u8",
-        "id": "E100139"
+        "id": "E100139",
+        "address": "대구광역시 하빈로84길 42902"
     },
     {
         "name": "이현삼거리",
         "latitude": "35.878336",
         "longitude": "128.540024",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch78.stream/playlist.m3u8",
-        "id": "E100140"
+        "id": "E100140",
+        "address": "대구광역시 이현동 와룡로 41759"
     },
     {
         "name": "입석네거리",
         "latitude": "35.891994",
         "longitude": "128.643198",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch78.stream/playlist.m3u8",
-        "id": "E100141"
+        "id": "E100141",
+        "address": "대구광역시 지저동 41049"
     },
     {
         "name": "조야교남편",
         "latitude": "35.903279",
         "longitude": "128.578797",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch152.stream/playlist.m3u8",
-        "id": "E100142"
+        "id": "E100142",
+        "address": "대구광역시 무태조야동 조야 동명 광역도로 41478"
     },
     {
         "name": "종각네거리",
         "latitude": "35.869085",
         "longitude": "128.603665",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch76.stream/playlist.m3u8",
-        "id": "E100143"
+        "id": "E100143",
+        "address": "대구광역시 성내1동 국채보상로 국채보상운동기념공원 41939"
     },
     {
         "name": "죽전네거리",
         "latitude": "35.850041",
         "longitude": "128.537413",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch14.stream/playlist.m3u8",
-        "id": "E100144"
+        "id": "E100144",
+        "address": "대구광역시 두류3동 달구벌대로 42644"
     },
     {
         "name": "중동교",
         "latitude": "35.841411",
         "longitude": "128.606334",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch218.stream/playlist.m3u8",
-        "id": "E100145"
+        "id": "E100145",
+        "address": "대구광역시 봉덕2동 중동교지하차도 42159"
     },
     {
         "name": "중리사거리",
         "latitude": "35.68919",
         "longitude": "128.44898",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch132.stream/playlist.m3u8",
-        "id": "E100146"
+        "id": "E100146",
+        "address": "대구광역시 42995"
     },
     {
         "name": "중앙네거리",
         "latitude": "35.871008",
         "longitude": "128.594083",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch28.stream/playlist.m3u8",
-        "id": "E100147"
+        "id": "E100147",
+        "address": "대구광역시 상서동 국채보상로 580 41909"
     },
     {
         "name": "중앙대로",
         "latitude": "35.867109",
         "longitude": "128.593423",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch192.stream/playlist.m3u8",
-        "id": "E100148"
+        "id": "E100148",
+        "address": "대구광역시 하서동 남성로 41934"
     },
     {
         "name": "지산네거리",
         "latitude": "35.824763",
         "longitude": "128.633088",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch168.stream/playlist.m3u8",
-        "id": "E100149"
+        "id": "E100149",
+        "address": "대구광역시 지산1동 지범로 42187"
     },
     {
         "name": "진천남네거리",
         "latitude": "35.808764",
         "longitude": "128.527408",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch223.stream/playlist.m3u8",
-        "id": "E100181"
+        "id": "E100181",
+        "address": "대구광역시 도원동 상화로 42790"
     },
     {
         "name": "청구네거리",
         "latitude": "35.867851",
         "longitude": "128.618365",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch96.stream/playlist.m3u8",
-        "id": "E100150"
+        "id": "E100150",
+        "address": "대구광역시 범어3동 국채보상로 42010"
     },
     {
         "name": "초곡15M_1",
         "latitude": "35.731749",
         "longitude": "128.480089",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch70.stream/playlist.m3u8",
-        "id": "E100151"
+        "id": "E100151",
+        "address": "대구광역시 테크노폴리스로 42981"
     },
     {
         "name": "충혼탑",
         "latitude": "35.833023",
         "longitude": "128.586957",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch272.stream/playlist.m3u8",
-        "id": "E100152"
+        "id": "E100152",
+        "address": "대구광역시 대명9동 42450"
     },
     {
         "name": "칠곡IC",
         "latitude": "35.941379",
         "longitude": "128.538004",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch126.stream/playlist.m3u8",
-        "id": "E100153"
+        "id": "E100153",
+        "address": "대구광역시 관음동 중앙고속도로 41441"
     },
     {
         "name": "칠곡네거리",
         "latitude": "35.933009",
         "longitude": "128.548187",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch4.stream/playlist.m3u8",
-        "id": "E100154"
+        "id": "E100154",
+        "address": "대구광역시 태전1동 구암로 41453"
     },
     {
         "name": "침산교",
         "latitude": "35.900988",
         "longitude": "128.591063",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch10.stream/playlist.m3u8",
-        "id": "E100155"
+        "id": "E100155",
+        "address": "대구광역시 침산1동 노원로57길 41501"
     },
     {
         "name": "큰고개오거리",
         "latitude": "35.885574",
         "longitude": "128.632931",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch210.stream/playlist.m3u8",
-        "id": "E100157"
+        "id": "E100157",
+        "address": "대구광역시 신암4동 41217"
     },
     {
         "name": "큰고개오거리",
         "latitude": "35.885923",
         "longitude": "128.633088",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch32.stream/playlist.m3u8",
-        "id": "E100156"
+        "id": "E100156",
+        "address": "대구광역시 신암5동 41182"
     },
     {
         "name": "태전삼거리",
         "latitude": "35.92059",
         "longitude": "128.54636",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch38.stream/playlist.m3u8",
-        "id": "E100158"
+        "id": "E100158",
+        "address": "대구광역시 태전1동 태전로 41466"
     },
     {
         "name": "태평네거리",
         "latitude": "35.876154",
         "longitude": "128.588244",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch88.stream/playlist.m3u8",
-        "id": "E100159"
+        "id": "E100159",
+        "address": "대구광역시 성내1동 태평로 41588"
     },
     {
         "name": "파군재삼거리",
         "latitude": "35.935967",
         "longitude": "128.643589",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch164.stream/playlist.m3u8",
-        "id": "E100160"
+        "id": "E100160",
+        "address": "대구광역시 불로·봉무동 팔공로 41005"
     },
     {
         "name": "파티마삼거리",
         "latitude": "35.883245",
         "longitude": "128.624291",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch25.stream/playlist.m3u8",
-        "id": "E100161"
+        "id": "E100161",
+        "address": "대구광역시 신암4동 아양로 41199"
     },
     {
         "name": "팔거교교차로",
         "latitude": "35.958641",
         "longitude": "128.553618",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch212.stream/playlist.m3u8",
-        "id": "E100162"
+        "id": "E100162",
+        "address": "경상북도 대구광역시 읍내동 칠곡중앙대로 41400"
     },
     {
         "name": "팔공IC네거리",
         "latitude": "35.906639",
         "longitude": "128.640315",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch207.stream/playlist.m3u8",
-        "id": "E100163"
+        "id": "E100163",
+        "address": "대구광역시 불로·봉무동 41035"
     },
     {
         "name": "팔달교",
         "latitude": "35.894241",
         "longitude": "128.551941",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch29.stream/playlist.m3u8",
-        "id": "E100164"
+        "id": "E100164",
+        "address": "대구광역시 무태조야동 금호강 자전거길 41709"
     },
     {
         "name": "팔달로",
         "latitude": "35.907441",
         "longitude": "128.547705",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch92.stream/playlist.m3u8",
-        "id": "E100165"
+        "id": "E100165",
+        "address": "대구광역시 태전2동 칠곡중앙대로 41486"
     },
     {
         "name": "평리네거리",
         "latitude": "35.878882",
         "longitude": "128.554622",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch81.stream/playlist.m3u8",
-        "id": "E100166"
+        "id": "E100166",
+        "address": "대구광역시 평리6동 북비산로 41772"
     },
     {
         "name": "포산중앙사거리",
         "latitude": "35.689247",
         "longitude": "128.457626",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch133.stream/playlist.m3u8",
-        "id": "E100167"
+        "id": "E100167",
+        "address": "대구광역시 테크노대로 43017"
     },
     {
         "name": "헐티재",
         "latitude": "35.729555",
         "longitude": "128.560581",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch131.stream/playlist.m3u8",
-        "id": "E100168"
+        "id": "E100168",
+        "address": "대구광역시 헐티로 42990"
     },
     {
         "name": "현충삼거리",
         "latitude": "35.832837",
         "longitude": "128.57949",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch167.stream/playlist.m3u8",
-        "id": "E100169"
+        "id": "E100169",
+        "address": "대구광역시 대명9동 현충로 42420"
     },
     {
         "name": "호림네거리",
         "latitude": "35.834876",
         "longitude": "128.491763",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch162.stream/playlist.m3u8",
-        "id": "E100170"
+        "id": "E100170",
+        "address": "대구광역시 호림동 성서공단로 42702"
     },
     {
         "name": "화산리삼거리",
         "latitude": "35.66412",
         "longitude": "128.400561",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch148.stream/playlist.m3u8",
-        "id": "E100171"
+        "id": "E100171",
+        "address": "대구광역시 43010"
     },
     {
         "name": "화원삼거리",
         "latitude": "35.803431",
         "longitude": "128.49778",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch94.stream/playlist.m3u8",
-        "id": "E100172"
+        "id": "E100172",
+        "address": "대구광역시 진천동 비슬로 42964"
     },
     {
         "name": "황금네거리",
         "latitude": "35.839884",
         "longitude": "128.624073",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch2.stream/playlist.m3u8",
-        "id": "E100173"
+        "id": "E100173",
+        "address": "대구광역시 지산1동 청수로 152 42176"
     },
     {
         "name": "효목네거리",
         "latitude": "35.87648",
         "longitude": "128.644414",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch3.stream/playlist.m3u8",
-        "id": "E100174"
+        "id": "E100174",
+        "address": "대구광역시 효목2동 화랑로 42037"
     },
     {
         "name": "효신네거리",
         "latitude": "35.872132",
         "longitude": "128.63552",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch169.stream/playlist.m3u8",
-        "id": "E100175"
+        "id": "E100175",
+        "address": "대구광역시 효목2동 화랑로 42037"
     },
     {
         "name": "휴양림입구사거리",
         "latitude": "35.68917",
         "longitude": "128.46979",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch134.stream/playlist.m3u8",
-        "id": "E100176"
+        "id": "E100176",
+        "address": "대구광역시 테크노순환로 계명대학교 현풍캠퍼스 43015"
     },
     {
         "name": "희망교",
         "latitude": "35.8471",
         "longitude": "128.607936",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch9.stream/playlist.m3u8",
-        "id": "E100177"
+        "id": "E100177",
+        "address": "대구광역시 황금2동 희망로 42134"
     }
 ]

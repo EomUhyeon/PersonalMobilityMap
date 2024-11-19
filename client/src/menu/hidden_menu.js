@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"; 
 import "./css/hidden_menu.css";
-import GetCCTVData from "./get_cctv_data";
-import GetCCTVImg from "./get_cctv_img";
+import GetCCTVData from "./get_cctv_data.js";
+import GetCCTVImg from "./get_cctv_img.js";
 
 function HiddenMenu({ getPopup, isEmptyPopup }) {
     const [hiddenMenuOpen, setHiddenMenuOpen] = useState(false);

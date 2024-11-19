@@ -1,0 +1,726 @@
+[
+    {
+        "name": "mbc네거리",
+        "percent": "33"
+    },
+    {
+        "name": "가창삼거리",
+        "percent": "39"
+    },
+    {
+        "name": "감삼네거리",
+        "percent": "5"
+    },
+    {
+        "name": "강창교",
+        "percent": "9"
+    },
+    {
+        "name": "강촌마을교차로",
+        "percent": "35"
+    },
+    {
+        "name": "거동네거리",
+        "percent": "55"
+    },
+    {
+        "name": "건들바위네거리",
+        "percent": "85"
+    },
+    {
+        "name": "검단네거리",
+        "percent": "74"
+    },
+    {
+        "name": "경기장네거리",
+        "percent": "19"
+    },
+    {
+        "name": "경대교",
+        "percent": "60"
+    },
+    {
+        "name": "경대부문",
+        "percent": "31"
+    },
+    {
+        "name": "계명네거리",
+        "percent": "18"
+    },
+    {
+        "name": "계산오거리",
+        "percent": "27"
+    },
+    {
+        "name": "고모로",
+        "percent": "15"
+    },
+    {
+        "name": "공산수원지삼거리",
+        "percent": "15"
+    },
+    {
+        "name": "공평네거리",
+        "percent": "18"
+    },
+    {
+        "name": "공항교교차로",
+        "percent": "29"
+    },
+    {
+        "name": "관계삼거리",
+        "percent": "89"
+    },
+    {
+        "name": "교동네거리",
+        "percent": "14"
+    },
+    {
+        "name": "금리사거리",
+        "percent": "37"
+    },
+    {
+        "name": "금호분기점",
+        "percent": "17"
+    },
+    {
+        "name": "김흥2_15M-1",
+        "percent": "17"
+    },
+    {
+        "name": "남대구IC",
+        "percent": "15"
+    },
+    {
+        "name": "남대구IC삼거리",
+        "percent": "5"
+    },
+    {
+        "name": "남문네거리",
+        "percent": "82"
+    },
+    {
+        "name": "남침산네거리",
+        "percent": "76"
+    },
+    {
+        "name": "능성",
+        "percent": "0"
+    },
+    {
+        "name": "달성네거리",
+        "percent": "7"
+    },
+    {
+        "name": "대구공고네거리",
+        "percent": "58"
+    },
+    {
+        "name": "대구역네거리",
+        "percent": "2"
+    },
+    {
+        "name": "대구은행네거리",
+        "percent": "54"
+    },
+    {
+        "name": "대덕문화전당",
+        "percent": "19"
+    },
+    {
+        "name": "대덕산임휴사",
+        "percent": "90"
+    },
+    {
+        "name": "대덕승마장",
+        "percent": "66"
+    },
+    {
+        "name": "대리삼거리",
+        "percent": "57"
+    },
+    {
+        "name": "대봉교",
+        "percent": "51"
+    },
+    {
+        "name": "대실역네거리",
+        "percent": "41"
+    },
+    {
+        "name": "대천교삼거리",
+        "percent": "2"
+    },
+    {
+        "name": "대천지하도네거리",
+        "percent": "0"
+    },
+    {
+        "name": "덕곡",
+        "percent": "10"
+    },
+    {
+        "name": "덕곡치안센터",
+        "percent": "2"
+    },
+    {
+        "name": "도곡네거리",
+        "percent": "18"
+    },
+    {
+        "name": "도동분기점",
+        "percent": "4"
+    },
+    {
+        "name": "도청교",
+        "percent": "8"
+    },
+    {
+        "name": "동대구IC",
+        "percent": "91"
+    },
+    {
+        "name": "동대구역네거리",
+        "percent": "100"
+    },
+    {
+        "name": "동산네거리",
+        "percent": "68"
+    },
+    {
+        "name": "동신교",
+        "percent": "89"
+    },
+    {
+        "name": "동인네거리",
+        "percent": "8"
+    },
+    {
+        "name": "동촌초교교차로",
+        "percent": "13"
+    },
+    {
+        "name": "두류공원네거리",
+        "percent": "57"
+    },
+    {
+        "name": "두류네거리",
+        "percent": "5"
+    },
+    {
+        "name": "두산오거리",
+        "percent": "6"
+    },
+    {
+        "name": "들안길삼거리",
+        "percent": "32"
+    },
+    {
+        "name": "만촌네거리",
+        "percent": "59"
+    },
+    {
+        "name": "만평네거리",
+        "percent": "0"
+    },
+    {
+        "name": "매천초등학교앞",
+        "percent": "18"
+    },
+    {
+        "name": "명곡_본리터널",
+        "percent": "91"
+    },
+    {
+        "name": "명덕네거리",
+        "percent": "48"
+    },
+    {
+        "name": "무학네거리",
+        "percent": "33"
+    },
+    {
+        "name": "반고개네거리",
+        "percent": "10"
+    },
+    {
+        "name": "반야월네거리",
+        "percent": "85"
+    },
+    {
+        "name": "반야월삼거리",
+        "percent": "84"
+    },
+    {
+        "name": "반야당네거리",
+        "percent": "10"
+    },
+    {
+        "name": "범안삼거리",
+        "percent": "42"
+    },
+    {
+        "name": "범어네거리",
+        "percent": "15"
+    },
+    {
+        "name": "북현네거리",
+        "percent": "62"
+    },
+    {
+        "name": "북현오거리",
+        "percent": "21"
+    },
+    {
+        "name": "본리네거리",
+        "percent": "16"
+    },
+    {
+        "name": "봉산육러리",
+        "percent": "38"
+    },
+    {
+        "name": "북구청네거리",
+        "percent": "55"
+    },
+    {
+        "name": "북대구IC",
+        "percent": "79"
+    },
+    {
+        "name": "북비산네거리",
+        "percent": "85"
+    },
+    {
+        "name": "불로삼거리",
+        "percent": "17"
+    },
+    {
+        "name": "비산네거리",
+        "percent": "61"
+    },
+    {
+        "name": "산격대교",
+        "percent": "6"
+    },
+    {
+        "name": "삼각지네거리",
+        "percent": "29"
+    },
+    {
+        "name": "삼덕네거리",
+        "percent": "8"
+    },
+    {
+        "name": "삼동교",
+        "percent": "29"
+    },
+    {
+        "name": "상동네거리",
+        "percent": "1"
+    },
+    {
+        "name": "상인그린힐스골프랜드",
+        "percent": "9"
+    },
+    {
+        "name": "상인네거리",
+        "percent": "47"
+    },
+    {
+        "name": "상화네거리",
+        "percent": "5"
+    },
+    {
+        "name": "서대구IC",
+        "percent": "9"
+    },
+    {
+        "name": "서대구공단네거리",
+        "percent": "0"
+    },
+    {
+        "name": "서부정류장네거리",
+        "percent": "26"
+    },
+    {
+        "name": "서성네거리",
+        "percent": "17"
+    },
+    {
+        "name": "성동고가차도",
+        "percent": "53"
+    },
+    {
+        "name": "성서IC",
+        "percent": "49"
+    },
+    {
+        "name": "성서네거리",
+        "percent": "11"
+    },
+    {
+        "name": "송지공원",
+        "percent": "11"
+    },
+    {
+        "name": "수목원입구삼거리",
+        "percent": "35"
+    },
+    {
+        "name": "수성IC",
+        "percent": "4"
+    },
+    {
+        "name": "수성교",
+        "percent": "13"
+    },
+    {
+        "name": "수성못오거리",
+        "percent": "86"
+    },
+    {
+        "name": "수성시장네거리",
+        "percent": "20"
+    },
+    {
+        "name": "수성호텔앞",
+        "percent": "58"
+    },
+    {
+        "name": "시민운동장",
+        "percent": "53"
+    },
+    {
+        "name": "시지고등학교",
+        "percent": "80"
+    },
+    {
+        "name": "시청네거리",
+        "percent": "8"
+    },
+    {
+        "name": "신남네거리",
+        "percent": "18"
+    },
+    {
+        "name": "신당네거리",
+        "percent": "2"
+    },
+    {
+        "name": "신매네거리",
+        "percent": "17"
+    },
+    {
+        "name": "신서혁신도시1",
+        "percent": "12"
+    },
+    {
+        "name": "신서혁신도시2",
+        "percent": "42"
+    },
+    {
+        "name": "신서혁신도시3",
+        "percent": "45"
+    },
+    {
+        "name": "신서혁신도시4",
+        "percent": "40"
+    },
+    {
+        "name": "신서혁신도시5",
+        "percent": "78"
+    },
+    {
+        "name": "신서혁신도시6",
+        "percent": "26"
+    },
+    {
+        "name": "신천교",
+        "percent": "12"
+    },
+    {
+        "name": "신천지네거리",
+        "percent": "99"
+    },
+    {
+        "name": "신평리네거리",
+        "percent": "14"
+    },
+    {
+        "name": "심신수련장",
+        "percent": "12"
+    },
+    {
+        "name": "쌍계오거리",
+        "percent": "5"
+    },
+    {
+        "name": "안지랑네거리",
+        "percent": "1"
+    },
+    {
+        "name": "앞산네거리",
+        "percent": "28"
+    },
+    {
+        "name": "앞산빨래터공원",
+        "percent": "11"
+    },
+    {
+        "name": "연경지구1",
+        "percent": "4"
+    },
+    {
+        "name": "연경지구2",
+        "percent": "14"
+    },
+    {
+        "name": "연호네거리",
+        "percent": "2"
+    },
+    {
+        "name": "영대네거리",
+        "percent": "55"
+    },
+    {
+        "name": "오봉오거리",
+        "percent": "69"
+    },
+    {
+        "name": "옥여봉사거리",
+        "percent": "10"
+    },
+    {
+        "name": "옥포분기점",
+        "percent": "14"
+    },
+    {
+        "name": "와룡공원삼거리",
+        "percent": "74"
+    },
+    {
+        "name": "와룡대교남편",
+        "percent": "89"
+    },
+    {
+        "name": "용산파출소",
+        "percent": "6"
+    },
+    {
+        "name": "원대오거리",
+        "percent": "18"
+    },
+    {
+        "name": "월곡네거리",
+        "percent": "68"
+    },
+    {
+        "name": "월드컵삼거리",
+        "percent": "0"
+    },
+    {
+        "name": "월배로송현역",
+        "percent": "11"
+    },
+    {
+        "name": "월성네거리",
+        "percent": "38"
+    },
+    {
+        "name": "월촌고가교교차로",
+        "percent": "40"
+    },
+    {
+        "name": "위천삼거리",
+        "percent": "80"
+    },
+    {
+        "name": "유천교",
+        "percent": "77"
+    },
+    {
+        "name": "율하교동편",
+        "percent": "14"
+    },
+    {
+        "name": "율하역",
+        "percent": "60"
+    },
+    {
+        "name": "응암네거리",
+        "percent": "2"
+    },
+    {
+        "name": "응암네거리1",
+        "percent": "5"
+    },
+    {
+        "name": "이곡네거리",
+        "percent": "14"
+    },
+    {
+        "name": "이시아폴리스삼거리",
+        "percent": "13"
+    },
+    {
+        "name": "이현고개",
+        "percent": "10"
+    },
+    {
+        "name": "이현삼거리",
+        "percent": "41"
+    },
+    {
+        "name": "입석네거리",
+        "percent": "95"
+    },
+    {
+        "name": "조야교남편",
+        "percent": "64"
+    },
+    {
+        "name": "종각네거리",
+        "percent": "29"
+    },
+    {
+        "name": "죽전네거리",
+        "percent": "6"
+    },
+    {
+        "name": "중동교",
+        "percent": "17"
+    },
+    {
+        "name": "중리사거리",
+        "percent": "17"
+    },
+    {
+        "name": "중앙네거리",
+        "percent": "39"
+    },
+    {
+        "name": "중앙대로",
+        "percent": "9"
+    },
+    {
+        "name": "지산네거리",
+        "percent": "67"
+    },
+    {
+        "name": "진천남네거리",
+        "percent": "58"
+    },
+    {
+        "name": "청구네거리",
+        "percent": "44"
+    },
+    {
+        "name": "초곡15M_1",
+        "percent": "21"
+    },
+    {
+        "name": "충혼탑",
+        "percent": "4"
+    },
+    {
+        "name": "칠곡IC",
+        "percent": "56"
+    },
+    {
+        "name": "칠곡네거리",
+        "percent": "21"
+    },
+    {
+        "name": "침산교",
+        "percent": "23"
+    },
+    {
+        "name": "큰고개오거리",
+        "percent": "14"
+    },
+    {
+        "name": "큰고개오거리",
+        "percent": "42"
+    },
+    {
+        "name": "태전삼거리",
+        "percent": "54"
+    },
+    {
+        "name": "태평네거리",
+        "percent": "100"
+    },
+    {
+        "name": "파군재삼거리",
+        "percent": "61"
+    },
+    {
+        "name": "파티마삼거리",
+        "percent": "2"
+    },
+    {
+        "name": "팔거교교차로",
+        "percent": "96"
+    },
+    {
+        "name": "팔공IC네거리",
+        "percent": "1"
+    },
+    {
+        "name": "팔달교",
+        "percent": "9"
+    },
+    {
+        "name": "팔달로",
+        "percent": "7"
+    },
+    {
+        "name": "평리네거리",
+        "percent": "26"
+    },
+    {
+        "name": "포산중앙사거리",
+        "percent": "12"
+    },
+    {
+        "name": "헐티재",
+        "percent": "14"
+    },
+    {
+        "name": "현충삼거리",
+        "percent": "69"
+    },
+    {
+        "name": "호림네거리",
+        "percent": "14"
+    },
+    {
+        "name": "화산리삼거리",
+        "percent": "3"
+    },
+    {
+        "name": "화원삼거리",
+        "percent": "12"
+    },
+    {
+        "name": "황금네거리",
+        "percent": "31"
+    },
+    {
+        "name": "효목네거리",
+        "percent": "82"
+    },
+    {
+        "name": "효신네거리",
+        "percent": "13"
+    },
+    {
+        "name": "휴양림입구사거리",
+        "percent": "9"
+    },
+    {
+        "name": "희망교",
+        "percent": ""
+    }
+]

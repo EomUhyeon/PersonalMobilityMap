@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './map.css';
 import CCTVInfo from './cctv_info.json'
-import TodayPercent from './reservoir_today_percent.json';
+import TodayPercent from './pm_today_percent.json';
 
 function Map({ getSearch, isEmptySearch, putPopup }) {
     const start_point = [35.9087003, 128.8030026];
