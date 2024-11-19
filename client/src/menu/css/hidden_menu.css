@@ -38,6 +38,10 @@
     
 }
 
+.cctv_graph {
+    width: 100%;
+}
+
 .hidden_menu_right{
     width: 50%;
     height: 100%;

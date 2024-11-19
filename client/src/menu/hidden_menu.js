@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./css/hidden_menu.css";
 import GetCCTVData from "./get_cctv_data.js";
 import GetCCTVImg from "./get_cctv_img.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import ChartContainer from './components/ChartContainer/ChartContainer';
 
 function HiddenMenu({ getPopup, isEmptyPopup }) {
     const [hiddenMenuOpen, setHiddenMenuOpen] = useState(false);
@@ -77,7 +81,9 @@ function HiddenMenu({ getPopup, isEmptyPopup }) {
                         )}
                     </div>
                     <div className="cctv_graph">
-                        {/* 그래프나 추가 콘텐츠가 여기에 표시됩니다. */}
+                        <Header />
+                        <ChartContainer />
+                        <Footer />
                     </div>
                 </div>
                 <div className="hidden_menu_right">

@@ -1,0 +1,30 @@
+.violation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .violation-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .violation-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .violation-list button:hover {
+    background-color: #0056b3;
+  }
