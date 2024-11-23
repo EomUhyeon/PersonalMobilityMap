@@ -7,8 +7,8 @@ import CCTVInfo from './data/cctv_info.json'
 import TodayPercent from './data/pm_today_percent.json';
 
 function Map({ getSearch, isEmptySearch, putPopup }) {
-    const start_point = [35.9087003, 128.8030026];
-    const start_zoom = 10;
+    const start_point = [35.861758, 128.571911];
+    const start_zoom = 13;
     const [searchCCTV, setSearchCCTV] = useState(null);
     const markersRef = useRef({});
 
@@ -30,7 +30,31 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
 
         useEffect(() => {
             if (searchCCTV && markersRef.current[searchCCTV.name]) {
-                map.flyTo(searchCCTV.position, 13, { animate: true });
+                const markerElement = markersRef.current[searchCCTV.name].getElement();
+                markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
+        
+                // 현재 맵과 마커의 좌표 가져오기
+                const map = markersRef.current[searchCCTV.name]._map;
+                const markerLatLng = markersRef.current[searchCCTV.name].getLatLng();
+        
+                // 맵의 크기와 중심 계산
+                const mapSize = map.getSize();          // {x: width, y: height}
+                const centerOffsetX = mapSize.x * 0.30; // 맵 너비의 25%만큼 오른쪽으로 이동
+                const centerOffsetY = 0;                // 세로는  중앙
+        
+                // 이동할 픽셀 좌표 계산
+                const targetPoint = map.latLngToContainerPoint(markerLatLng);
+                const adjustedPoint = L.point(
+                    targetPoint.x - centerOffsetX,
+                    targetPoint.y - centerOffsetY
+                );
+        
+                // 이동할 좌표를 위도/경도로 변환
+                const targetLatLng = map.containerPointToLatLng(adjustedPoint);
+        
+                // 맵 이동
+                map.flyTo(targetLatLng, 13, { animate: true });
+
                 markersRef.current[searchCCTV.name].openPopup();
 
                 setSearchCCTV(null);
