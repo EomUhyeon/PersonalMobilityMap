@@ -33,31 +33,35 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
                 const markerElement = markersRef.current[searchCCTV.name].getElement();
                 markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
         
-                // 현재 맵과 마커의 좌표 가져오기
-                const map = markersRef.current[searchCCTV.name]._map;
                 const markerLatLng = markersRef.current[searchCCTV.name].getLatLng();
-        
-                // 맵의 크기와 중심 계산
-                const mapSize = map.getSize();          // {x: width, y: height}
-                const centerOffsetX = mapSize.x * 0.30; // 맵 너비의 25%만큼 오른쪽으로 이동
-                const centerOffsetY = 0;                // 세로는  중앙
-        
-                // 이동할 픽셀 좌표 계산
-                const targetPoint = map.latLngToContainerPoint(markerLatLng);
-                const adjustedPoint = L.point(
-                    targetPoint.x - centerOffsetX,
-                    targetPoint.y - centerOffsetY
-                );
-        
-                // 이동할 좌표를 위도/경도로 변환
-                const targetLatLng = map.containerPointToLatLng(adjustedPoint);
-        
-                // 맵 이동
-                map.flyTo(targetLatLng, 13, { animate: true });
 
-                markersRef.current[searchCCTV.name].openPopup();
+                map.setZoom(13, { animate: true });
 
-                setSearchCCTV(null);
+                setTimeout(() => {
+                    // 맵의 크기와 중심 계산
+                    const mapSize = map.getSize();              // {x: width, y: height}
+                    const centerOffsetX = mapSize.x * 0.25;     // 맵 너비의 25%만큼 오른쪽으로 이동
+                    const centerOffsetY = 0;                    // 세로는 중앙 유지
+
+                    // 이동할 픽셀 좌표 계산
+                    const targetPoint = map.latLngToContainerPoint(markerLatLng);
+                    const adjustedPoint = L.point(
+                        targetPoint.x - centerOffsetX,
+                        targetPoint.y - centerOffsetY
+                    );
+
+                    // 이동할 좌표를 위도/경도로 변환
+                    const targetLatLng = map.containerPointToLatLng(adjustedPoint);
+
+                    // 맵 이동
+                    map.flyTo(targetLatLng, map.getZoom(), { animate: true });
+
+                    // 팝업 열기
+                    markersRef.current[searchCCTV.name].openPopup();
+
+                    // 검색 상태 초기화
+                    setSearchCCTV(null);
+                }, 500); // 줌 변경 후 0.5초 뒤 위치 이동
             }
         }, [searchCCTV, map]);
 
@@ -94,27 +98,31 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
             const markerElement = markersRef.current[name].getElement();
             markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
     
-            // 현재 맵과 마커의 좌표 가져오기
             const map = markersRef.current[name]._map;
-            const markerLatLng = markersRef.current[name].getLatLng();
+
+            map.setZoom(13, { animate: true });
     
-            // 맵의 크기와 중심 계산
-            const mapSize = map.getSize();          // {x: width, y: height}
-            const centerOffsetX = mapSize.x * 0.30; // 맵 너비의 25%만큼 오른쪽으로 이동
-            const centerOffsetY = 0;                // 세로는  중앙
+            setTimeout(() => {
+                const markerLatLng = markersRef.current[name].getLatLng();
     
-            // 이동할 픽셀 좌표 계산
-            const targetPoint = map.latLngToContainerPoint(markerLatLng);
-            const adjustedPoint = L.point(
-                targetPoint.x - centerOffsetX,
-                targetPoint.y - centerOffsetY
-            );
+                // 맵의 크기와 중심 계산
+                const mapSize = map.getSize();              // {x: width, y: height}
+                const centerOffsetX = mapSize.x * 0.25;     // 맵 너비의 25%만큼 오른쪽으로 이동
+                const centerOffsetY = 0;                    // 세로는 중앙 유지
     
-            // 이동할 좌표를 위도/경도로 변환
-            const targetLatLng = map.containerPointToLatLng(adjustedPoint);
+                // 이동할 픽셀 좌표 계산
+                const targetPoint = map.latLngToContainerPoint(markerLatLng);
+                const adjustedPoint = L.point(
+                    targetPoint.x - centerOffsetX,
+                    targetPoint.y - centerOffsetY
+                );
     
-            // 맵 이동
-            map.flyTo(targetLatLng, 13, { animate: true });
+                // 이동할 좌표를 위도/경도로 변환
+                const targetLatLng = map.containerPointToLatLng(adjustedPoint);
+    
+                // 맵 이동
+                map.flyTo(targetLatLng, map.getZoom(), { animate: true });
+            }, 500);
         }
     };
 
