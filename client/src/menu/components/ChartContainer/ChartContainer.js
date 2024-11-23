@@ -34,7 +34,7 @@ const ChartContainer = () => {
       <ButtonGroup setView={setView} />
       {view === 'chart' ? (
         <div>
-          <h2>위반 예측 그래프</h2>
+          <h2 className="chart-title">위반 예측 그래프</h2>
           <ViolationChart data={chartData} />
         </div>
       ) : (

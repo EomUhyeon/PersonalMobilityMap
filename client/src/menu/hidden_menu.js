@@ -3,8 +3,6 @@ import "./css/hidden_menu.css";
 import GetCCTVData from "./get_cctv_data.js";
 import GetCCTVImg from "./get_cctv_img.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
 import ChartContainer from './components/ChartContainer/ChartContainer';
 
 function HiddenMenu({ getPopup, isEmptyPopup }) {
@@ -81,9 +79,7 @@ function HiddenMenu({ getPopup, isEmptyPopup }) {
                         )}
                     </div>
                     <div className="cctv_graph">
-                        <Header />
-                        <ChartContainer />
-                        <Footer />
+                        {/* <ChartContainer /> */}
                     </div>
                 </div>
                 <div className="hidden_menu_right">

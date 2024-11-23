@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player';
 import "./css/menu.css";
 import TodayPercent from './data/reservoir_today_percent.json';
 import CCTVInfo from './cctv_info.json'
+import ChartContainer from './components/ChartContainer/ChartContainer';
 import GraphAccident from "./graph_accident.js"
 
 function Menu({ putSearch, getPopup, isEmptyPopup }) {
@@ -190,7 +191,8 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 </div>
                 <div className="left_menu_mid">
                     기본 정보 페이지
-                    <GraphAccident />
+                    <ChartContainer />
+                    {/* <GraphAccident /> */}
                 </div>
                 <div className="left_menu_bot">
                     
