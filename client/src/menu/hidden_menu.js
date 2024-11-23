@@ -77,6 +77,9 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
                 상세 정보
             </button>
             <div className={hidden_menu}>
+                <button className="left_menu_btn" onClick={hiddenMenuBnt}>
+                    <div className="hidden_menu_arrow"></div>
+                </button>
                 <div className="cctv_img">
                     {selectedImage ? (
                         <ImageComponent cctvName={cctvInformation} imgName={selectedImage} />
