@@ -4,7 +4,7 @@
     position: absolute;
     background-color: white;
     top: 0;
-    left: 40%;
+    left: 33%;
     z-index: 2000;
     display: flex;                      /* 가로 정렬 설정 */
     flex-direction: column;             /* 아이템을 세로로 배치 */
