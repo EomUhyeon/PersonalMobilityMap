@@ -166,7 +166,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                             <span className="safety-value_address">{info.address}</span>
                         </div>
                         <div className="safety-row_percent">
-                            <span className="safety-label_percent">위반률:</span>
+                            <span className="safety-label_percent">위험도:</span>
                             <span className="safety-value_percent">{info.percent}%</span>
                         </div>
                     </div>
