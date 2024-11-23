@@ -69,9 +69,28 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
         if (markersRef.current[name]) {
             const markerElement = markersRef.current[name].getElement();
             markerElement.style.backgroundImage = `url(${require('./CCTV_off_30px.jpg')})`;
-            // 화면 중앙으로 이동
+    
+            // 현재 맵과 마커의 좌표 가져오기
             const map = markersRef.current[name]._map;
-            map.flyTo(markersRef.current[name].getLatLng(), 13, { animate: true });
+            const markerLatLng = markersRef.current[name].getLatLng();
+    
+            // 맵의 크기와 중심 계산
+            const mapSize = map.getSize();          // {x: width, y: height}
+            const centerOffsetX = mapSize.x * 0.30; // 맵 너비의 25%만큼 오른쪽으로 이동
+            const centerOffsetY = 0;                // 세로는  중앙
+    
+            // 이동할 픽셀 좌표 계산
+            const targetPoint = map.latLngToContainerPoint(markerLatLng);
+            const adjustedPoint = L.point(
+                targetPoint.x - centerOffsetX,
+                targetPoint.y - centerOffsetY
+            );
+    
+            // 이동할 좌표를 위도/경도로 변환
+            const targetLatLng = map.containerPointToLatLng(adjustedPoint);
+    
+            // 맵 이동
+            map.flyTo(targetLatLng, 13, { animate: true });
         }
     };
 

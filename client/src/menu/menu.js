@@ -132,48 +132,34 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             />
         )
     }
-
     const ColorBar = () => {
-        const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#F3FF33"]; // 색상 배열
-        const labels = ["58(전일+11)", "25(전일+4)", "12(전일-3)", "13(전일-5)", "11(전일-5)"]; // 숫자 배열
-
+        const colors = ["#FF0000", "#FF7F00", "#FFFF00", "#008000"]; // 색상 배열
+        const labels = ["58(전일+11)", "25(전일+4)", "12(전일-3)", "11(전일-5)"]; // 숫자 배열
+    
         return (
-          <div
-            style={{
-              position: "relative",
-              display: "flex",
-              width: "100%",
-              height: "50px",
-              border: "1px solid black",
-              overflow: "hidden",
-            }}
-          >
-            {colors.map((color, index) => (
-              <div
-                key={index}
-                style={{
-                  flex: 1,
-                  backgroundColor: color,
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  position: "relative",
-                }}
-              >
-                <span
-                  style={{
-                    color: "#000",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {labels[index]}
-                </span>
-              </div>
-            ))}
-            
-          </div>
+            <>
+                {/* 색상 막대 */}
+                <div className="color-bar-container">
+                    {colors.map((color, index) => (
+                        <div
+                            key={index}
+                            className="color-bar-segment"
+                            style={{ backgroundColor: color }}
+                        >
+                            <span className="color-bar-label">{labels[index]}</span>
+                        </div>
+                    ))}
+                </div>
+    
+                {/* 하단 라벨 */}
+                <div className="color-bar-labels">
+                    <span className="color-bar-danger">위험</span>
+                    <span className="color-bar-safe">안전</span>
+                </div>
+            </>
         );
     };
+    
 
     return (
         <div className="menu">
@@ -204,28 +190,6 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             <div className="right_menu">
                 (대구 광역시)개인형 이동장치 안전도
                 <ColorBar />
-                <div
-                style={{
-                    position: "absolute",
-                    bottom: "-20px", // 하단으로 여백 추가
-                    left: "0",
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                }}
-                >
-                안전
-                </div>
-                <div
-                style={{
-                    position: "absolute",
-                    bottom: "-20px", // 하단으로 여백 추가
-                    right: "0",
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                }}
-                >
-                위험
-                </div>
             </div>
         </div>
     );
