@@ -102,7 +102,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                                     <div className="search_result">
                                         <div className={`today_persent ${percentCategory(reservoir.name)}`}></div>
                                         <li key={index} onClick={() => handleReservoirClick(reservoir)}>
-                                            {reservoir.name} ({reservoir.위치})
+                                            {reservoir.name} ({reservoir.address})
                                         </li>
                                     </div>
                                 ))
@@ -117,7 +117,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
     }
 
     const CCTVPlayer = ({ name }) => {
-        const cctvName = Array.isArray(name) ? name[0] : name;
+        const cctvName = name;
         const cctv = CCTVInfo.find(item => item.name === cctvName);
         const cctv_url = cctv ? cctv.link : '';
 
@@ -132,6 +132,52 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             />
         )
     }
+
+    const SafetyInfo = ({ name }) => {
+        const [info, setInfo] = useState(null);
+    
+        useEffect(() => {
+            if (name) {
+                // address 찾기
+                const addressInfo = CCTVInfo.find((item) => item.name === name);
+    
+                // percent 찾기
+                const percentInfo = TodayPercent.find((item) => item.name === name);
+    
+                // 데이터 통합
+                if (addressInfo && percentInfo) {
+                    setInfo({
+                        address: addressInfo.address,
+                        percent: percentInfo.percent,
+                    });
+                } else {
+                    setInfo(null);
+                }
+            }
+        }, [name]);
+    
+        return (
+            <div className="safety-info-container">
+                <h3>{name}</h3>
+                {info ? (
+                    <div className="safety-table">
+                        <div className="safety-row_address">
+                            <span className="safety-label_address">소재지:</span>
+                            <span className="safety-value_address">{info.address}</span>
+                        </div>
+                        <div className="safety-row_percent">
+                            <span className="safety-label_percent">위반률:</span>
+                            <span className="safety-value_percent">{info.percent}%</span>
+                        </div>
+                    </div>
+                ) : (
+                    <p>정보를 찾을 수 없습니다.</p>
+                )}
+            </div>
+        );
+    };
+
+
     const ColorBar = () => {
         const colors = ["#FF0000", "#FF7F00", "#FFFF00", "#008000"]; // 색상 배열
         const labels = ["58(전일+11)", "25(전일+4)", "12(전일-3)", "11(전일-5)"]; // 숫자 배열
@@ -168,11 +214,10 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                     <div className={`arrow ${menuOpen ? 'open' : ''}`}></div>
                 </button>
                 <div className="cctv_box">
-                    <CCTVPlayer name={cctvInformation}/>
+                    <CCTVPlayer name={cctvInformation[0]}/>
                 </div>
                 <div className="left_menu_top">
-                    {cctvInformation} <br />
-                    기본 상세 정보
+                    < SafetyInfo name={cctvInformation[0]}/>
                 </div>
                 <div className="left_menu_mid">
                     {/* <ChartContainer /> */}
