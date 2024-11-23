@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react"; 
 import ReactPlayer from 'react-player';
 import "./css/menu.css";
-import TodayPercent from './data/reservoir_today_percent.json';
+import TodayPercent from './pm_today_percent.json';
 import CCTVInfo from './cctv_info.json'
 import ChartContainer from './components/ChartContainer/ChartContainer';
-import GraphAccident from "./graph_accident.js"
 
 function Menu({ putSearch, getPopup, isEmptyPopup }) {
     const [menuOpen, setMenuOpen] = useState(true);
@@ -32,15 +31,15 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
     
         const handleKeyPress = (e) => {
             if (e.key === 'Enter') {
-                searchReservoir();
+                searchCCTV();
             }
         };
 
         const handleSearchClick = () => {
-            searchReservoir();
+            searchCCTV();
         };
 
-        const searchReservoir = () => {
+        const searchCCTV = () => {
             const filteredReservoirs = CCTVInfo.filter((reservoir) =>
                 reservoir.name.includes(searchTerm)
             );
@@ -60,23 +59,21 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
         };
 
         const percentCategory = (name) => {
-            const reservoir = TodayPercent.find(item => item.name === name);
+            const cctv = TodayPercent.find(item => item.name === name);
     
-            if (!reservoir || !reservoir.percent) {
+            if (!cctv || !cctv.percent) {
                 return '';
             }
     
-            const percent = parseFloat(reservoir.percent);
+            const percent = parseFloat(cctv.percent);
     
-            if (percent >= 0 && percent <= 20) {
-                return 'marker-20';
-            } else if (percent > 20 && percent <= 40) {
-                return 'marker-40';
-            } else if (percent > 40 && percent <= 60) {
-                return 'marker-60';
-            } else if (percent > 60 && percent <= 80) {
-                return 'marker-80';
-            } else if (percent > 80 && percent <= 100) {
+            if (percent >= 0 && percent <= 25) {
+                return 'marker-25';
+            } else if (percent > 25 && percent <= 50) {
+                return 'marker-50';
+            } else if (percent > 50 && percent <= 75) {
+                return 'marker-75';
+            } else if (percent > 75 && percent <= 100) {
                 return 'marker-100';
             } else {
                 return '';

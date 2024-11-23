@@ -49,15 +49,13 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
 
         const percent = parseFloat(cctv.percent);
 
-        if (percent >= 0 && percent <= 20) {
-            return 'marker-20';
-        } else if (percent > 20 && percent <= 40) {
-            return 'marker-40';
-        } else if (percent > 40 && percent <= 60) {
-            return 'marker-60';
-        } else if (percent > 60 && percent <= 80) {
-            return 'marker-80';
-        } else if (percent > 80 && percent <= 100) {
+        if (percent >= 0 && percent <= 25) {
+            return 'marker-25';
+        } else if (percent > 25 && percent <= 50) {
+            return 'marker-50';
+        } else if (percent > 50 && percent <= 75) {
+            return 'marker-75';
+        } else if (percent > 75 && percent <= 100) {
             return 'marker-100';
         } else {
             return '';
@@ -113,9 +111,7 @@ function Map({ getSearch, isEmptySearch, putPopup }) {
                         }}
                     >
                         <Popup>
-                            <div className='table_map'>
-                                {marker.name}
-                            </div>
+                            {marker.name}
                         </Popup>
                     </Marker>
                 );

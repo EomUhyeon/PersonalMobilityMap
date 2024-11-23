@@ -73,20 +73,17 @@
   background-color: gray;
   border: 2px solid #D3D3D3;    /* 테두리 색상 */
 }
-.marker-20 {
-  background-color: #FF6F61;    /* 파스텔  */
+.marker-25 {
+  background-color: #FF0000;    /* 파스텔  */
 }
-.marker-40 {
-  background-color: #FFB347;
+.marker-50 {
+  background-color: #FF7F00;
 }
-.marker-60 {
-  background-color: #FDFD96;
-}
-.marker-80 {
-  background-color: #AEC6CF;
+.marker-75 {
+  background-color: #FFFF00;
 }
 .marker-100 {
-  background-color: #779ECB;
+  background-color: #008000;
 }
 
 .cctv_box {
