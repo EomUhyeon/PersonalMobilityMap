@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react"; 
 import ReactPlayer from 'react-player';
 import "./css/menu.css";
-import TodayPercent from './pm_today_percent.json';
-import CCTVInfo from './cctv_info.json'
+import TodayPercent from './data/pm_today_percent.json';
+import CCTVInfo from './data/cctv_info.json'
 import ChartContainer from './components/ChartContainer/ChartContainer';
 
 function Menu({ putSearch, getPopup, isEmptyPopup }) {
@@ -184,19 +184,15 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                     <CCTVPlayer name={cctvInformation}/>
                 </div>
                 <div className="left_menu_top">
-                    {cctvInformation}
+                    {cctvInformation} <br />
+                    기본 정보 페이지
                 </div>
                 <div className="left_menu_mid">
-                    기본 정보 페이지
                     <ChartContainer />
-                    {/* <GraphAccident /> */}
-                </div>
-                <div className="left_menu_bot">
-                    
                 </div>
             </div>
             <div className="mid_menu">
-                <div className="left_menu_top">
+                <div className="search_menu">
                     <Search />
                 </div>
             </div>

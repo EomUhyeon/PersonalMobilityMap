@@ -70,22 +70,15 @@ function HiddenMenu({ getPopup, isEmptyPopup }) {
                 상세 정보
             </button>
             <div className={hidden_menu}>
-                <div className="hidden_menu_left">
-                    <div className="cctv_img">
-                        {selectedImage ? (
-                            <ImageComponent cctvName={cctvInformation} imgName={selectedImage} />
-                        ) : (
-                            <p>Select an image to display</p>
-                        )}
-                    </div>
-                    <div className="cctv_graph">
-                        {/* <ChartContainer /> */}
-                    </div>
+                <div className="cctv_img">
+                    {selectedImage ? (
+                        <ImageComponent cctvName={cctvInformation} imgName={selectedImage} />
+                    ) : (
+                        <p>Select an image to display</p>
+                    )}
                 </div>
-                <div className="hidden_menu_right">
-                    <div className="cctv_list">
-                        <PMDetectionBox />
-                    </div>
+                <div className="cctv_list">
+                    <PMDetectionBox />
                 </div>
             </div>
         </div>
