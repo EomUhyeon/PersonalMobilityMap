@@ -1,15 +1,24 @@
-import React, { useState } from "react"; 
+import React, { useEffect, useState } from "react"; 
 import "./css/hidden_menu.css";
 import GetCCTVData from "./get_cctv_data.js";
 import GetCCTVImg from "./get_cctv_img.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ChartContainer from './components/ChartContainer/ChartContainer';
 
-function HiddenMenu({ menuOpen, cctvInformation }) {
+function HiddenMenu({ getPopup, isEmptyPopup }) {
     const [hiddenMenuOpen, setHiddenMenuOpen] = useState(false);
     const hidden_menu = hiddenMenuOpen ? 'hidden_menu' : 'hidden_menu_closed';
-    const hidden_menu_bnt = menuOpen ? 'hidden_menu_bnt' : 'hidden_menu_bnt_closed';
+    const [cctvInformation, setCCTVInformation] = useState('');
     const [selectedImage, setSelectedImage] = useState(null); // 선택된 이미지를 저장
+
     const { cctvData, loading, error } = GetCCTVData({ cctvName: cctvInformation });
+
+    useEffect(() => {
+        if (!isEmptyPopup()) {
+            const popupData = getPopup();
+            setCCTVInformation(popupData);
+        }
+    }, [getPopup, isEmptyPopup]);
 
     const hiddenMenuBnt = () => {
         setHiddenMenuOpen(!hiddenMenuOpen);
@@ -56,8 +65,8 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
     }
 
     return (
-        <>
-            <button className={hidden_menu_bnt} onClick={hiddenMenuBnt}>
+        <div className="hidden">
+            <button className="hidden_menu_bnt" onClick={hiddenMenuBnt}>
                 상세 정보
             </button>
             <div className={hidden_menu}>
@@ -72,8 +81,7 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
                     <PMDetectionBox />
                 </div>
             </div>
-        </>
-            
+        </div>
     );
 }
 

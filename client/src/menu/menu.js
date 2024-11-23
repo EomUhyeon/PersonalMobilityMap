@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player';
 import "./css/menu.css";
 import TodayPercent from './data/pm_today_percent.json';
 import CCTVInfo from './data/cctv_info.json'
+import HiddenMenu from "./hidden_menu";
 import ChartContainer from './components/ChartContainer/ChartContainer';
 
 function Menu({ putSearch, getPopup, isEmptyPopup }) {
@@ -185,16 +186,20 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 </div>
                 <div className="left_menu_top">
                     {cctvInformation} <br />
-                    기본 정보 페이지
+                    기본 상세 정보
                 </div>
                 <div className="left_menu_mid">
-                    <ChartContainer />
+                    {/* <ChartContainer /> */}
                 </div>
             </div>
             <div className="mid_menu">
                 <div className="search_menu">
                     <Search />
                 </div>
+                <HiddenMenu 
+                    menuOpen={menuOpen}
+                    cctvInformation={cctvInformation} 
+                />
             </div>
             <div className="right_menu">
                 (대구 광역시)개인형 이동장치 안전도

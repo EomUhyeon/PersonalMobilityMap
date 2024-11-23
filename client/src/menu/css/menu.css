@@ -88,12 +88,17 @@
 
 .left_menu_top{
   width: 100%;
+  height: 20%;
+  border: 2px solid #D3D3D3;
   display: flex;
-  justify-content: center;         /* 가로 중앙 정렬 */
+  justify-content: center;            /* 세로 정렬 */
+  align-items: center;                /* 가로 정렬 */
+  flex-direction: column;             /* 아이템을 세로로 배치 */
 }
 
 .left_menu_mid{
   width: 100%;
+  height: 40%;
 }
 
 .mid_menu {
