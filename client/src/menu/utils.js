@@ -9,32 +9,124 @@ export const fetchData = async (url) => {
     }
   };
   
+  const splitByDate = (data) => {
+    const cutoffDate = '2024-11-21';
+    return data.map(item => {
+      const itemDate = item.date;
+      return {
+        date: itemDate,
+        actual: itemDate < cutoffDate ? item.trafficVolume : null,
+        predicted: itemDate >= cutoffDate ? item.trafficVolume : null
+      };
+    });
+  };
+
   export const parseHelmetData = (csv, sampleRate = 10) => {
-    const data = csv
+    const parsedData = csv
       .trim()
       .split('\n')
       .slice(1)
       .map(line => {
         const [date, , violationType, , , , trafficVolume] = line.split(',');
         if (violationType === '헬멧 미착용') {
-          return { date, violationType, trafficVolume: parseInt(trafficVolume, 10) };
+          return { date, trafficVolume: parseInt(trafficVolume, 10) || 0 };
         }
         return null;
       })
       .filter(item => item !== null);
 
     const sampledData = [];
-    for (let i = 0; i < data.length; i += sampleRate) {
-      const chunk = data.slice(i, i + sampleRate);
+    for (let i = 0; i < parsedData.length; i += sampleRate) {
+      const chunk = parsedData.slice(i, i + sampleRate);
       const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
       sampledData.push({
         date: chunk[0].date,
-        violationType: chunk[0].violationType,
-        trafficVolume: Math.round(averageVolume),
+        trafficVolume: Math.round(averageVolume)
       });
     }
 
-    return sampledData;
+    return splitByDate(sampledData);
+  };
+
+  export const parseLaneViolationData = (csv, sampleRate = 10) => {
+    const parsedData = csv
+      .trim()
+      .split('\n')
+      .slice(1)
+      .map(line => {
+        const [date, , violationType, , , , trafficVolume] = line.split(',');
+        if (violationType === '1차선 주행') {
+          return { date, trafficVolume: parseInt(trafficVolume, 10) || 0 };
+        }
+        return null;
+      })
+      .filter(item => item !== null);
+
+    const sampledData = [];
+    for (let i = 0; i < parsedData.length; i += sampleRate) {
+      const chunk = parsedData.slice(i, i + sampleRate);
+      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
+      sampledData.push({
+        date: chunk[0].date,
+        trafficVolume: Math.round(averageVolume)
+      });
+    }
+
+    return splitByDate(sampledData);
+  };
+
+  export const parseReverseDrivingData = (csv, sampleRate = 10) => {
+    const parsedData = csv
+      .trim()
+      .split('\n')
+      .slice(1)
+      .map(line => {
+        const [date, , violationType, , , , trafficVolume] = line.split(',');
+        if (violationType === '역주행') {
+          return { date, trafficVolume: parseInt(trafficVolume, 10) || 0 };
+        }
+        return null;
+      })
+      .filter(item => item !== null);
+
+    const sampledData = [];
+    for (let i = 0; i < parsedData.length; i += sampleRate) {
+      const chunk = parsedData.slice(i, i + sampleRate);
+      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
+      sampledData.push({
+        date: chunk[0].date,
+        trafficVolume: Math.round(averageVolume)
+      });
+    }
+
+    return splitByDate(sampledData);
+  };
+
+  export const parseCenterLineViolationData = (csv, sampleRate = 10) => {
+    const parsedData = csv
+      .trim()
+      .split('\n')
+      .slice(1)
+      .map(line => {
+        const [date, , violationType, , , , trafficVolume] = line.split(',');
+        if (violationType === '중앙선 침범') {
+          return { date, trafficVolume: parseInt(trafficVolume, 10) || 0 };
+        }
+        return null;
+      })
+      .filter(item => item !== null);
+
+    const sampledData = [];
+    for (let i = 0; i < parsedData.length; i += sampleRate) {
+      const chunk = parsedData.slice(i, i + sampleRate);
+      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
+      sampledData.push({
+        date: chunk[0].date,
+        trafficVolume: Math.round(averageVolume)
+      });
+    }
+
+    return splitByDate(sampledData);
   };
 
   export const parseViolationData = (csv) => {
@@ -50,85 +142,4 @@ export const fetchData = async (url) => {
         acc[date] = (acc[date] || 0) + violationCount;
         return acc;
       }, {});
-  };
-
-  export const parseLaneViolationData = (csv, sampleRate = 30) => {
-    const data = csv
-      .trim()
-      .split('\n')
-      .slice(1)
-      .map(line => {
-        const [date, , violationType, , , , trafficVolume] = line.split(',');
-        if (violationType === '1차선 주행') {
-          return { date, trafficVolume: parseInt(trafficVolume, 10) };
-        }
-        return null;
-      })
-      .filter(item => item !== null);
-
-    const sampledData = [];
-    for (let i = 0; i < data.length; i += sampleRate) {
-      const chunk = data.slice(i, i + sampleRate);
-      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
-      sampledData.push({
-        date: chunk[0].date,
-        trafficVolume: Math.round(averageVolume),
-      });
-    }
-
-    return sampledData;
-  };
-
-  export const parseReverseDrivingData = (csv, sampleRate = 10) => {
-    const data = csv
-      .trim()
-      .split('\n')
-      .slice(1)
-      .map(line => {
-        const [date, , violationType, , , , trafficVolume] = line.split(',');
-        if (violationType === '역주행') {
-          return { date, trafficVolume: parseInt(trafficVolume, 10) };
-        }
-        return null;
-      })
-      .filter(item => item !== null);
-
-    const sampledData = [];
-    for (let i = 0; i < data.length; i += sampleRate) {
-      const chunk = data.slice(i, i + sampleRate);
-      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
-      sampledData.push({
-        date: chunk[0].date,
-        trafficVolume: Math.round(averageVolume),
-      });
-    }
-
-    return sampledData;
-  };
-
-  export const parseCenterLineViolationData = (csv, sampleRate = 10) => {
-    const data = csv
-      .trim()
-      .split('\n')
-      .slice(1)
-      .map(line => {
-        const [date, , violationType, , , , trafficVolume] = line.split(',');
-        if (violationType === '중앙선 침범') {
-          return { date, trafficVolume: parseInt(trafficVolume, 10) };
-        }
-        return null;
-      })
-      .filter(item => item !== null);
-
-    const sampledData = [];
-    for (let i = 0; i < data.length; i += sampleRate) {
-      const chunk = data.slice(i, i + sampleRate);
-      const averageVolume = chunk.reduce((sum, item) => sum + item.trafficVolume, 0) / chunk.length;
-      sampledData.push({
-        date: chunk[0].date,
-        trafficVolume: Math.round(averageVolume),
-      });
-    }
-
-    return sampledData;
   };

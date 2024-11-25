@@ -1,22 +1,38 @@
-import React from 'react';
-import { Button, ButtonGroup as BootstrapButtonGroup } from 'react-bootstrap';
+import React, { useState, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import './ButtonGroup.css';
 
-const ButtonItem = ({ variant, onClick, children }) => (
-  <Button variant={variant} onClick={onClick}>
-    {children}
-  </Button>
-);
+const BUTTONS = [
+  { id: 'chart', label: '전체 위반' },
+  { id: 'list', label: '위반 항목' },
+  { id: 'national', label: '전국 현황' }
+];
 
-const ButtonGroup = ({ setView }) => (
-  <BootstrapButtonGroup className="mb-3">
-    <ButtonItem variant="primary" onClick={() => setView('chart')}>
-      전체 위반
-    </ButtonItem>
-    <ButtonItem variant="secondary" onClick={() => setView('list')}>
-      위반 항목
-    </ButtonItem>
-  </BootstrapButtonGroup>
-);
+const ButtonGroup = ({ setView }) => {
+  const [activeButton, setActiveButton] = useState('chart');
+
+  const handleClick = useCallback((view) => {
+    setActiveButton(view);
+    setView(view);
+  }, [setView]);
+
+  return (
+    <div className="button-group">
+      {BUTTONS.map(({ id, label }) => (
+        <button 
+          key={id}
+          className={activeButton === id ? 'active' : ''} 
+          onClick={() => handleClick(id)}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  );
+};
+
+ButtonGroup.propTypes = {
+  setView: PropTypes.func.isRequired
+};
 
 export default ButtonGroup;

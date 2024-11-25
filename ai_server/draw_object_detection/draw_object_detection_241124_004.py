@@ -1,14 +1,9 @@
-from ultralytics import YOLO
 import cv2
-import numpy as np
-
 
 def draw_yolo_detections(image_path, label_path, class_names, output_path):
     """
     YOLO 라벨 데이터를 사용하여 YOLO 스타일로 결과를 그리는 함수.
     """
-    # YOLO 모델 로드 (더미, .plot() 메서드 사용을 위해 필요)
-    model = YOLO("yolov8n.pt")  # YOLOv8 모델 (가벼운 네트워크)
 
     # 이미지 읽기
     image = cv2.imread(image_path)
@@ -36,19 +31,18 @@ def draw_yolo_detections(image_path, label_path, class_names, output_path):
     # 박스와 라벨 그리기
     for box in boxes:
         x1, y1, x2, y2, class_id = box
-        color = (0, 255, 0)  # 초록색
+        color = (0, 165, 255)
         class_name = class_names[class_id]
-        confidence = 1.0  # confidence는 더미 값 (필요 시 수정 가능)
 
         # 바운딩 박스 그리기
         cv2.rectangle(image, (x1, y1), (x2, y2), color, 2)
 
         # 라벨 텍스트와 배경 그리기
-        label = f"{class_name} {confidence:.2f}"  # 클래스 이름 및 confidence
-        text_size, _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
+        label = f"{class_name}"  # 클래스 이름 및 confidence
+        text_size, _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 1)
         text_w, text_h = text_size
         cv2.rectangle(image, (x1, y1 - text_h - 5), (x1 + text_w, y1), color, -1)  # 텍스트 배경
-        cv2.putText(image, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+        cv2.putText(image, label, (x1, y1 - 3), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 1, cv2.LINE_AA)
 
     # 결과 이미지 저장
     cv2.imwrite(output_path, image)
@@ -58,7 +52,7 @@ def draw_yolo_detections(image_path, label_path, class_names, output_path):
 # 사용 예제
 image_path = "2024-10-02_01-10-08_299946.jpg"
 label_path = "2024-10-02_01-10-08_299946.txt"
-class_names = ["kickboard"]
-output_path = "output_image2005.jpg"
+class_names = ["2people"]
+output_path = "2people.jpg"
 
 draw_yolo_detections(image_path, label_path, class_names, output_path)

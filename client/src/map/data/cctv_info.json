@@ -168,7 +168,7 @@
         "address": "대구광역시 팔달동 경부고속도로 41489"
     },
     {
-        "name": "김흥2_15M-1",
+        "name": "김흥",
         "latitude": "35.745321",
         "longitude": "128.490033",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch71.stream/playlist.m3u8",
@@ -680,7 +680,7 @@
         "address": "대구광역시 이현동 와룡로 41759"
     },
     {
-        "name": "서부정류장네거리",
+        "name": "서부역입구삼거리",
         "latitude": "35.837449",
         "longitude": "128.557689",
         "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch46.stream/playlist.m3u8",

@@ -220,7 +220,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                     < SafetyInfo name={cctvInformation[0]}/>
                 </div>
                 <div className="left_menu_mid">
-                    {/* <ChartContainer /> */}
+                    <ChartContainer />
                 </div>
             </div>
             <div className="mid_menu">

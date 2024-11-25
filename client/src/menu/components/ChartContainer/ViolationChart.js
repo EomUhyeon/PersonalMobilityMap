@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 import csv from 'csvtojson';
+import PropTypes from 'prop-types';
 
 const LoadingMessage = () => <p>로딩 중...</p>;
 
@@ -20,7 +21,7 @@ const Tooltip = ({ point }) => (
   </div>
 );
 
-const ViolationChart = () => {
+const ViolationChart = ({ data }) => {
   const [formattedData, setFormattedData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -70,29 +71,29 @@ const ViolationChart = () => {
   }, []);
 
   return (
-    <div style={{ height: 400, backgroundColor: '#f5f5f5', borderRadius: '8px', padding: '20px' }}>
+    <div style={{ height: 270, backgroundColor: 'transparent', padding: '5px', width: '100%' }}>
       {isLoading ? (
         <LoadingMessage />
       ) : formattedData.length > 0 ? (
         <ResponsiveLine
           data={formattedData}
-          margin={{ top: 50, right: 20, bottom: 80, left: 60 }} // 마진 조정
+          margin={{ top: 25, right: 20, bottom: 45, left: 50 }}
           xScale={{ type: 'point' }}
           yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: false, reverse: false }}
           axisTop={null}
           axisRight={null}
-          axisBottom={null} // x축 레이블 숨기기
+          axisBottom={null}
           axisLeft={{
             orient: 'left',
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
             legend: '위반 건수',
-            legendOffset: -40,
+            legendOffset: -45,
             legendPosition: 'middle'
           }}
           colors={['#1f77b4', '#ff7f0e']}
-          pointSize={6}
+          pointSize={4}
           pointColor={{ theme: 'background' }}
           pointBorderWidth={1}
           pointBorderColor={{ from: 'serieColor' }}
@@ -105,13 +106,13 @@ const ViolationChart = () => {
               direction: 'row',
               justify: false,
               translateX: 0,
-              translateY: 70, // 범례를 아래로 이동
-              itemsSpacing: 0,
+              translateY: 40,
+              itemsSpacing: 20,
               itemDirection: 'left-to-right',
               itemWidth: 100,
               itemHeight: 20,
               itemOpacity: 0.75,
-              symbolSize: 12,
+              symbolSize: 10,
               symbolShape: 'circle',
               symbolBorderColor: 'rgba(0, 0, 0, .5)',
               effects: [
@@ -122,6 +123,18 @@ const ViolationChart = () => {
                     itemOpacity: 1
                   }
                 }
+              ],
+              data: [
+                {
+                  id: '실제 위반 건수',
+                  label: '실제 위반 건수',
+                  color: '#1f77b4'
+                },
+                {
+                  id: '예측 위반 건수',
+                  label: '예측 위반 건수',
+                  color: '#ff7f0e'
+                }
               ]
             }
           ]}
@@ -131,6 +144,13 @@ const ViolationChart = () => {
       )}
     </div>
   );
+};
+
+ViolationChart.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.shape({
+    date: PropTypes.string.isRequired,
+    violationCount: PropTypes.number.isRequired
+  })).isRequired
 };
 
 export default ViolationChart;
