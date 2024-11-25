@@ -5,14 +5,14 @@ import ExpandedChart from './ExpandedChart';
 
 const ViolationItem = ({ title, data, isExpanded, onToggle }) => {
   return (
-    <li style={{ marginTop: '15px' }}>
+    <li style={{ marginBottom: '12px', marginTop: 0}}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span>{title}</span>
         <Button variant="outline-primary" size="sm" onClick={onToggle}>
           {isExpanded ? '-' : '+'}
         </Button>
       </div>
-      <div style={{ marginTop: '10px' }}>
+      <div>
         {isExpanded ? (
           <ExpandedChart data={data} />
         ) : (

@@ -21,10 +21,30 @@
 }
 .hidden_menu_bnt {
     position: absolute;
-    top: 43vh;
+    top: 41.5vh;
     left: -22%;
     z-index: 1000;
-    transition: opacity 1.2s ease; /* 애니메이션 효과 */
+    transition: opacity 1.2s ease;      /* 애니메이션 효과 */
+    display: inline-block;
+    padding: 4px 16px;
+    border: 1px solid #dadce0;        /* 버튼 테두리 색 */
+    border-radius: 20px;                /* 둥근 모서리 */
+    background-color: white;         /* 배경 색 */
+    color: #202124;                      /* 텍스트 색 */
+    font-size: 14px;                    /* 텍스트 크기 */
+    font-weight: 500;                   /* 텍스트 굵기 */
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.hidden_menu_bnt:hover {
+    background-color: #f7f8f8;        /* 호버 시 배경 색 */
+    border-color: #dadce0;            /* 호버 시 테두리 색 */
+}
+.hidden_menu_bnt.active {    
+    background-color: #e8f0fe;
+    border-color: #d2e3fc;            /* 클릭 시 테두리 색 */
+    color: #1b6ef3;
 }
 .hidden_menu_bnt_closed {
     width: 0;

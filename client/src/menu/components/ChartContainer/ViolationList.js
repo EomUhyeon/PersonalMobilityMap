@@ -44,8 +44,8 @@ const ViolationList = () => {
   ], [violationData]);
 
   return (
-    <div className="violation-list" style={{ height: '270px', overflowY: 'auto', backgroundColor: 'transparent' }}>
-      <ul>
+    <div className="violation-list" style={{ width: '100%', height: '100%', overflowY: 'auto', backgroundColor: 'transparent' }}>
+      <ul style={{ padding: 0 }}>
         {expandedIndex === null ? (
           violationItems.map((item, index) => (
             <ViolationItem

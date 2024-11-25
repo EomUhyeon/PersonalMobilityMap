@@ -88,8 +88,9 @@
 
 .left_menu_top{
   width: 100%;
-  height: 12%;
-  border: 1px solid #eeeded;
+  height: 10%;
+  border-right: 1px solid #dadce0;
+  border-left: 1px solid #dadce0;
   display: flex;
   justify-content: center;            /* 세로 정렬 */
   align-items: center;                /* 가로 정렬 */
@@ -130,8 +131,9 @@
 
 .left_menu_mid{
   width: 100%;
-  height: 48%;
-  border: 1px solid #eeeded;
+  height: 50%;
+  border-right: 1px solid #dadce0;
+  border-left: 1px solid #dadce0;
 }
 
 .mid_menu {

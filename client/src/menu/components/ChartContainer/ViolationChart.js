@@ -71,7 +71,7 @@ const ViolationChart = ({ data }) => {
   }, []);
 
   return (
-    <div style={{ height: 270, backgroundColor: 'transparent', padding: '5px', width: '100%' }}>
+    <div style={{ height: '100%', backgroundColor: '#f8f9fa', padding: '5px', width: '100%' }}>
       {isLoading ? (
         <LoadingMessage />
       ) : formattedData.length > 0 ? (

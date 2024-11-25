@@ -1,17 +1,18 @@
 import React from 'react';
+import GraphAccident from './graph_accident.js'
 
 const NationalStatus = () => {
   return (
     <div className="national-status" style={{ 
-      height: '270px', 
+      width: '100%',
+      height: '100%', 
       display: 'flex', 
       justifyContent: 'center', 
       alignItems: 'center',
-      backgroundColor: '#f0f2f5',
+      backgroundColor: '#f8f9fa',
       borderRadius: '8px',
-      margin: '10px'
     }}>
-      <p>전국 현황 데이터가 준비중입니다.</p>
+      <GraphAccident />
     </div>
   );
 };

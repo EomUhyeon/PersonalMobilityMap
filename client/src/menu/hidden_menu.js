@@ -6,13 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HiddenMenu({ menuOpen, cctvInformation }) {
     const [hiddenMenuOpen, setHiddenMenuOpen] = useState(false);
-    const hidden_menu = hiddenMenuOpen ? 'hidden_menu' : 'hidden_menu_closed';
+    const [isButtonActive, setIsButtonActive] = useState(false);
     const hidden_menu_bnt = menuOpen ? 'hidden_menu_bnt' : 'hidden_menu_bnt_closed';
-    const [selectedImage, setSelectedImage] = useState(null); // 선택된 이미지를 저장
+    const hidden_menu = hiddenMenuOpen ? 'hidden_menu' : 'hidden_menu_closed';
+    const [selectedImage, setSelectedImage] = useState(null);               // 선택된 이미지를 저장
     const { cctvData, loading, error } = GetCCTVData({ cctvName: cctvInformation });
 
     const hiddenMenuBnt = () => {
         setHiddenMenuOpen(!hiddenMenuOpen);
+        setIsButtonActive(!isButtonActive);
     };
 
     function PMDetectionBox() {
@@ -73,7 +75,9 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
 
     return (
         <>
-            <button className={hidden_menu_bnt} onClick={hiddenMenuBnt}>
+            <button 
+                className={`${hidden_menu_bnt} ${isButtonActive ? "active" : ""}`}
+                onClick={hiddenMenuBnt}>
                 상세 정보
             </button>
             <div className={hidden_menu}>

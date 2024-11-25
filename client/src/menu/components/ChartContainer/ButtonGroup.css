@@ -3,6 +3,7 @@
     justify-content: flex-start;
     margin-bottom: 20px;
     padding: 0 10px;
+    border-bottom: 1px solid #dadce0;
 }
 
 .button-group button {
