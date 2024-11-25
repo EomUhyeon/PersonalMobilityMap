@@ -683,7 +683,7 @@
         "name": "서부역입구삼거리",
         "latitude": "35.837449",
         "longitude": "128.557689",
-        "link": "https://carcctv.daegu.go.kr/live3/_definst_/ch46.stream/playlist.m3u8",
+        "link": "https://wowza.cheonan.go.kr/live/cctv002.stream/playlist.m3u8",
         "id": "E100085",
         "address": "대구광역시 대명11동 월배로 42819"
     },

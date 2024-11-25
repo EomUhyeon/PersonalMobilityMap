@@ -14,11 +14,10 @@ public class PMDetectionInfo {
     private String cctvName;
     private String date;
     private boolean helmet;
-    private boolean firstLane;
+    private boolean people2;
     private boolean wrongWay;
     private boolean centerLine;
     private String image;
-    private String label;
 
     public PMDetectionInfo() {}
 
@@ -34,8 +33,8 @@ public class PMDetectionInfo {
     public boolean isHelmet() { return helmet; }
     public void setHelmet(boolean helmet) { this.helmet = helmet; }
 
-    public boolean isFirstLane() { return firstLane; }
-    public void setFirstLane(boolean firstLane) { this.firstLane = firstLane; }
+    public boolean isPeople2() { return people2; }
+    public void setPeople2(boolean people2) { this.people2 = people2; }
 
     public boolean isWrongWay() { return wrongWay; }
     public void setWrongWay(boolean wrongWay) { this.wrongWay = wrongWay; }
@@ -46,6 +45,4 @@ public class PMDetectionInfo {
     public String getImage() { return image; }
     public void setImage(String image) { this.image = image; }
 
-    public String getLabel() { return label; }
-    public void setLabel(String label) { this.label = label; }
 }

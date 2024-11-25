@@ -49,7 +49,7 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
                             </tr>
                             <tr>
                                 <td className="field-label">2인 탑승</td>
-                                <td>{item.firstLane ? "Yes" : "No"}</td>
+                                <td>{item.people2 ? "Yes" : "No"}</td>
                                 <td className="field-label">역주행</td>
                                 <td>{item.wrongWay ? "Yes" : "No"}</td>
                             </tr>

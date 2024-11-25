@@ -51,9 +51,9 @@ def draw_yolo_detections(image_path, label_path, class_names, output_path):
 
 
 # 사용 예제
-image_path = "2024-10-02_01-10-08_299946.jpg"
-label_path = "2024-10-02_01-10-08_299946.txt"
+image_path = "./images/2024-10-02_19-36-17_650977.jpg"
+label_path = "./labels/2024-10-02_19-36-17_650977.txt"
 class_names = ["helmet"]
-output_path = "helmet.jpg"
+output_path = "2024-10-02_19-36-17_650977.jpg"
 
 draw_yolo_detections(image_path, label_path, class_names, output_path)
