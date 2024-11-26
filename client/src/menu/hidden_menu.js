@@ -45,15 +45,19 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
                             </tr>
                             <tr>
                                 <td className="field-label">헬멧 미착용</td>
-                                <td>{item.helmet ? "Yes" : "No"}</td>
+                                <td style={{ backgroundColor: item.helmet ? "#fff9cc" : "inherit" }}>
+                                    {item.helmet ? "Yes" : "No"}</td>
                                 <td className="field-label">중앙선 침범</td>
-                                <td>{item.centerLine ? "Yes" : "No"}</td>
+                                <td style={{ backgroundColor: item.centerLine ? "#ffcccc" : "inherit" }}>
+                                    {item.centerLine ? "Yes" : "No"}</td>
                             </tr>
                             <tr>
                                 <td className="field-label">2인 탑승</td>
-                                <td>{item.people2 ? "Yes" : "No"}</td>
+                                <td style={{ backgroundColor: item.people2 ? "#ffe2cc" : "inherit" }}>
+                                    {item.people2 ? "Yes" : "No"}</td>
                                 <td className="field-label">역주행</td>
-                                <td>{item.wrongWay ? "Yes" : "No"}</td>
+                                <td style={{ backgroundColor: item.wrongWay ? "#ffcccc" : "inherit" }}>
+                                    {item.wrongWay ? "Yes" : "No"}</td>
                             </tr>
                         </React.Fragment>
                         </tbody>

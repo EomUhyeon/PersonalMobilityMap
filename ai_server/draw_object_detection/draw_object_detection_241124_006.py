@@ -50,9 +50,9 @@ def draw_yolo_detections(image_path, label_path, class_names, output_path):
 
 
 # 사용 예제
-image_path = "2024-10-02_01-10-08_299946.jpg"
-label_path = "2024-10-02_01-10-08_299946.txt"
+image_path = "./images/2024-10-01_17-18-36_033141.jpg"
+label_path = "./labels/2024-10-01_17-18-36_033141.txt"
 class_names = ["wrong_way"]
-output_path = "wrong_way.jpg"
+output_path = "seobuyeog_ibgu_samgeoli/2024-10-01_17-18-36_033141.jpg"
 
 draw_yolo_detections(image_path, label_path, class_names, output_path)
