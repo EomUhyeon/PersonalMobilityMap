@@ -88,11 +88,11 @@
 
 .left_menu_top{
   width: 100%;
-  height: 10%;
+  height: 12%;
   border-right: 1px solid #dadce0;
   border-left: 1px solid #dadce0;
   display: flex;
-  justify-content: center;            /* 세로 정렬 */
+  padding: 15px;
   align-items: center;                /* 가로 정렬 */
   flex-direction: column;             /* 아이템을 세로로 배치 */
 }
@@ -105,7 +105,7 @@
   display: flex;
 }
 .safety-row_address {
-  width: 70%;
+  width: 72%;
   display: flex;
   justify-content: center;
 }
@@ -114,24 +114,25 @@
   font-weight: bold;
 }
 .safety-value_address {
+  width: 100%;
   border: 0px solid #de0a0a;
 }
 .safety-row_percent {
-  width: 30%;
-  display: flex;
-  justify-content: center;
+  width: 28%;
+  display: flex;                      /* 버튼들을 Flexbox로 설정 */
+  justify-content: flex-end;          /* 버튼들을 우측 정렬 */
 }
 .safety-label_percent {
   width: 70px;
   font-weight: bold;
 }
 .safety-value_percent {
-  border: 0px solid #de0a0a;
+  height: 29px;
 }
 
 .left_menu_mid{
   width: 100%;
-  height: 50%;
+  height: 48%;
   border-right: 1px solid #dadce0;
   border-left: 1px solid #dadce0;
 }

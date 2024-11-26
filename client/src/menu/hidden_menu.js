@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"; 
+import ImageViewer from 'react-simple-image-viewer';
 import "./css/hidden_menu.css";
 import GetCCTVData from "./get_cctv_data.js";
 import GetCCTVImg from "./get_cctv_img.js";
@@ -16,14 +17,14 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
 
     useEffect(() => {
         if (cctvData.length > 0) {
-            sortData("violations");
+            handleClick("violations");
         }
     }, [cctvInformation, cctvData]);
 
     const hiddenMenuBnt = () => {
         setHiddenMenuOpen(!hiddenMenuOpen);
         setIsButtonActive(!isButtonActive);
-        sortData("violations");
+        handleClick("violations");
     };
 
     const handleClick = (type) => {
@@ -139,12 +140,38 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
 
     const ImageComponent = ({ cctvName, imgName }) => {
         const { imgURL, loading, error } = GetCCTVImg({ cctvName, imgName });
+        const [isViewerOpen, setIsViewerOpen] = useState(false);
 
         if (loading) return <p>Loading image...</p>;
-        if (error) return <p>Error loading image</p>;
+        if (error) return <p>Loading image</p>;
         if (!imgURL) return <p>No Image</p>;
 
-        return <img className="cctv_box_img" src={imgURL} alt="CCTV" />;
+        const openImageViewer = () => setIsViewerOpen(true);
+        const closeImageViewer = () => setIsViewerOpen(false);
+
+        return (
+            <div>
+                <img
+                    className="cctv_box_img"
+                    src={imgURL}
+                    alt="CCTV"
+                    onClick={openImageViewer}                       // 클릭 시 이미지 뷰어 열기
+                    style={{ cursor: 'pointer', width: '100', height: 'auto'}}
+                />
+                {isViewerOpen && (
+                    <ImageViewer
+                        src={[imgURL]}                              // 이미지 URL 배열
+                        currentIndex={0}                            // 보여줄 이미지 인덱스
+                        onClose={closeImageViewer}                  // 닫기 버튼 콜백
+                        backgroundStyle={{
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',  // 배경색 설정
+                        }}
+                        disableScroll={true}                        // 스크롤 비활성화
+                        closeOnClickOutside={true}                  // 바깥 클릭 시 닫기
+                    />
+                )}
+            </div>
+        );
     }
 
     return (

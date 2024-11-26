@@ -155,6 +155,18 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 }
             }
         }, [name]);
+
+        const getRiskInfo = (percent) => {
+            if (percent <= 25) {
+                return { text: "안전", color: "#008000" }; // 초록색
+            } else if (percent <= 50) {
+                return { text: "주의", color: "#FFFF00" }; // 노란색
+            } else if (percent <= 75) {
+                return { text: "주의", color: "#FF7F00" }; // 주황색
+            } else {
+                return { text: "위험", color: "#FF0000" }; // 빨간색
+            }
+        };
     
         return (
             <div className="safety-info-container">
@@ -167,7 +179,20 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                         </div>
                         <div className="safety-row_percent">
                             <span className="safety-label_percent">위험도:</span>
-                            <span className="safety-value_percent">{info.percent}%</span>
+                            <span
+                                className="safety-value_percent"
+                                style={{
+                                    backgroundColor: getRiskInfo(info.percent).color,
+                                    color: "black",         // 텍스트 색상
+                                    padding: "4px 16px",
+                                    borderRadius: "20px",
+                                    fontSize: "14px",
+                                    display: "inline-block",
+                                    fontWeight: "bold",
+                                }}
+                            >
+                                {getRiskInfo(info.percent).text}
+                            </span>
                         </div>
                     </div>
                 ) : (
