@@ -160,7 +160,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             if (percent <= 25) {
                 return { text: "안전", color: "#008000" }; // 초록색
             } else if (percent <= 50) {
-                return { text: "주의", color: "#FFFF00" }; // 노란색
+                return { text: "조심", color: "#FFFF00" }; // 노란색
             } else if (percent <= 75) {
                 return { text: "주의", color: "#FF7F00" }; // 주황색
             } else {
@@ -205,7 +205,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
 
     const ColorBar = () => {
         const colors = ["#FF0000", "#FF7F00", "#FFFF00", "#008000"]; // 색상 배열
-        const labels = ["58(전일+11)", "25(전일+4)", "12(전일-3)", "11(전일-5)"]; // 숫자 배열
+        const labels = ["위험", "주의", "조심", "안전"]; // 숫자 배열
     
         return (
             <>
@@ -223,10 +223,10 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 </div>
     
                 {/* 하단 라벨 */}
-                <div className="color-bar-labels">
+                {/* <div className="color-bar-labels">
                     <span className="color-bar-danger">위험</span>
                     <span className="color-bar-safe">안전</span>
-                </div>
+                </div> */}
             </>
         );
     };
@@ -258,7 +258,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 />
             </div>
             <div className="right_menu">
-                (대구 광역시)개인형 이동장치 안전도
+                <h6>(대구 광역시)개인형 이동장치 안전도</h6>
                 <ColorBar />
             </div>
         </div>
