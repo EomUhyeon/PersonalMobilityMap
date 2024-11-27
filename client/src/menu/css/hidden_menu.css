@@ -111,7 +111,9 @@
     display: flex;                      /* 버튼들을 Flexbox로 설정 */
     justify-content: flex-end;          /* 버튼들을 우측 정렬 */
     gap: 5px;                           /* 버튼 사이 간격 */
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
 }
 .sort-bnt {
     transition: opacity 1.2s ease;      /* 애니메이션 효과 */
@@ -137,12 +139,15 @@
     color: #1b6ef3;
 }
 .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 5px auto;                   /* 테이블 중앙 정렬 */
     overflow-x: auto;                   /* 테이블이 화면을 넘어갈 경우 스크롤 */
     max-width: calc(100% - 10px);       /* 테이블 최대 너비 */
 }
 .cctv-table {
-    width: 100%;                        /* 테이블 전체 너비 */
+    width: calc(100% - 10px);           /* 테이블 전체 너비 */
     font-family: Arial, sans-serif;
     font-size: 14px;                    /* 폰트 크기 */
     text-align: center;                 /* 텍스트 정렬 */

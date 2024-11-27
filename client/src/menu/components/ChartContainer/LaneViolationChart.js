@@ -6,6 +6,7 @@ const LaneViolationChart = ({ data, height }) => (
     data={data} 
     height={height} 
     tooltipLabel="1차선 주행" 
+    maxValue={100}
   />
 );
 

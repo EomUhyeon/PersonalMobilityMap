@@ -37,15 +37,15 @@ const ViolationList = () => {
   }, []);
 
   const violationItems = useMemo(() => [
-    { title: "헬멧 미착용 그래프", data: violationData.helmet },
-    { title: "1차선 주행 그래프", data: violationData.lane },
-    { title: "역주행 그래프", data: violationData.reverseDriving },
-    { title: "중앙선 침범 그래프", data: violationData.centerLine }
+    { title: "헬멧 미착용", data: violationData.helmet },
+    { title: "2인 탑승", data: violationData.lane },
+    { title: "중앙선 침범", data: violationData.centerLine },
+    { title: "역주행", data: violationData.reverseDriving }
   ], [violationData]);
 
   return (
-    <div className="violation-list" style={{ width: '100%', height: '100%', overflowY: 'auto', backgroundColor: 'transparent' }}>
-      <ul style={{ padding: 0 }}>
+    <div className="violation-list">
+      <ul className='violation-ul'>
         {expandedIndex === null ? (
           violationItems.map((item, index) => (
             <ViolationItem

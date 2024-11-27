@@ -211,7 +211,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             <>
                 {/* 색상 막대 */}
                 <div className="color-bar-container">
-                    {colors.map((color, index) => (
+                    {/* {colors.map((color, index) => (
                         <div
                             key={index}
                             className="color-bar-segment"
@@ -219,7 +219,35 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                         >
                             <span className="color-bar-label">{labels[index]}</span>
                         </div>
-                    ))}
+                    ))} */}
+                    <table style={{ borderCollapse: 'collapse', width: '100%'}}>
+                        <tbody>
+                            <tr>
+                            <td style={{ backgroundColor: '#FF0000', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ backgroundColor: '#FF7F00', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ backgroundColor: '#FFFF00', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ backgroundColor: '#008000', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            </tr>
+                        </tbody>                     
+                    </table>
+                    <table style={{ borderCollapse: 'collapse', width: '100%'}}>
+                        <tbody>
+                            <tr>
+                            <td style={{ textAlign: 'center', padding: '10px' }}>
+                                23
+                            </td>
+                            <td style={{ textAlign: 'center', padding: '10px' }}>
+                                53
+                            </td>
+                            <td style={{ textAlign: 'center', padding: '10px' }}>
+                                13
+                            </td>
+                            <td style={{ textAlign: 'center', padding: '10px' }}>
+                                9
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
     
                 {/* 하단 라벨 */}
@@ -258,7 +286,7 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 />
             </div>
             <div className="right_menu">
-                <h6>(대구 광역시)개인형 이동장치 안전도</h6>
+                <h6 class="safety-title">(대구 광역시)개인형 이동장치 안전도</h6>
                 <ColorBar />
             </div>
         </div>

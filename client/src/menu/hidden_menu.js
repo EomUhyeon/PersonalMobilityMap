@@ -214,11 +214,10 @@ function HiddenMenu({ menuOpen, cctvInformation }) {
                             위반순
                         </button>
                     </div>
-                    <PMDetectionBox />
+                    <PMDetectionBox />    
                 </div>
             </div>
         </>
-            
     );
 }
 

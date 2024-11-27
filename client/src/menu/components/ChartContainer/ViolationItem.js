@@ -1,18 +1,29 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
 import CompactChart from './CompactChart';
 import ExpandedChart from './ExpandedChart';
 
 const ViolationItem = ({ title, data, isExpanded, onToggle }) => {
   return (
-    <li style={{ marginBottom: '12px', marginTop: 0}}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <li style={{ 
+      height: isExpanded ? '379px' : '100%',
+      overflow: 'hidden',                 /* 스크롤 제거 */
+      transition: 'height 0.3s ease'
+    }}>
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
+        marginBottom: '8px'
+      }}>
         <span>{title}</span>
-        <Button variant="outline-primary" size="sm" onClick={onToggle}>
+        <button style={{width: '30px', height: '30px'}} onClick={onToggle}>
           {isExpanded ? '-' : '+'}
-        </Button>
+        </button>
       </div>
-      <div>
+      <div style={{ 
+        height: isExpanded ? 'calc(100% - 40px)' : '25%',
+        transition: 'height 0.3s ease'
+      }}>
         {isExpanded ? (
           <ExpandedChart data={data} />
         ) : (

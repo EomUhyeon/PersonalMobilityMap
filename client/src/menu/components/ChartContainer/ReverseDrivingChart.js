@@ -6,6 +6,7 @@ const ReverseDrivingChart = ({ data, height }) => (
     data={data} 
     height={height} 
     tooltipLabel="역주행" 
+    maxValue={100}
   />
 );
 

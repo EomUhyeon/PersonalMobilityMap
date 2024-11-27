@@ -229,10 +229,10 @@
 }
 
 .right_menu {
-  margin-top: 20px;
-  height: 150px;
+  margin-top: 21px;
+  height: 200px;
   background-color: #ffffff;
-  border-radius: 2px;             /* 모서리 둥글게 */
+  border-radius: 2px;                 /* 모서리 둥글게 */
   position: absolute;
   top: 0;
   left: 77%;
@@ -240,6 +240,10 @@
   display: flex;                      /* 가로 정렬 설정 */
   flex-direction: column;             /* 아이템을 세로로 배치 */
   align-items: center;                /* 가로 정렬 */
+}
+.safety-title {
+  color: #000;                      /* 글자 색을 검은색으로 설정 */
+  font-weight: bold;                  /* 필요시 텍스트를 굵게 표시 */
 }
 .color-bar-container {
   position: relative;
