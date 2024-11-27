@@ -203,15 +203,63 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
     };
 
     const ColorBar = () => {
-        const rowData = [
+        const dailyData = [
             { number: 12, diff: -4 },
             { number: 15, diff: -3 },
             { number: 25, diff: 2 },
             { number: 125, diff: 5 },
           ];
+        
+          const weeklyData = [
+            { number: 16, diff: 3 },
+            { number: 18, diff: -6 },
+            { number: 30, diff: -5 },
+            { number: 117, diff: 8 },
+          ];
+        
+          const monthlyData = [
+            { number: 18, diff: 2 },
+            { number: 17, diff: 3 },
+            { number: 28, diff: -1 },
+            { number: 118, diff: -4 },
+          ];
+
+        const [rowData, setRowData] = useState(dailyData);
+        const options = ['일간', '주간', '월간'];
+        const [selectedOptionIndex, setSelectedOptionIndex] = useState(0); // 현재 선택된 옵션의 인덱스
+        
+        const handleButtonClick = () => {
+            const nextIndex = (selectedOptionIndex + 1) % options.length; // 다음 옵션으로 순환
+            setSelectedOptionIndex(nextIndex);
+        
+            switch (options[nextIndex]) {
+              case '일간':
+                setRowData(dailyData);
+                break;
+              case '주간':
+                setRowData(weeklyData);
+                break;
+              case '월간':
+                setRowData(monthlyData);
+                break;
+              default:
+                setRowData(dailyData);
+            }
+        };
+
         return (
             <>
-                <h6 class="safety-title">(대구 광역시)개인형 이동장치 안전도</h6>
+                <div className="header">
+                    <h6 className="safety-title">(대구 광역시)개인형 이동장치 안전도</h6>
+                    <div className="dropdown-container">
+                        <button
+                            className="dropdown-button"
+                            onClick={handleButtonClick}
+                        >
+                            {options[selectedOptionIndex]} {/* 현재 옵션 표시 */}
+                        </button>
+                    </div>
+                </div>
                 <div className="color-bar-container">
                     <table className="color-bar-table">
                         <tbody>
@@ -251,7 +299,6 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
         );
     };
     
-
     return (
         <div className="menu">
             <div className={left_menu}>

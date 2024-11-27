@@ -1,0 +1,24 @@
+.left_menu_mid{
+    width: 100%;
+}
+.left_menu_mid_bnt {
+    margin-left: 25px;
+    margin-bottom: -1px;
+    border: none;                   /* 투명 */
+    width: 90px;
+    height: 44px;
+    color: #666666;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.left_menu_mid_bnt.active {
+    margin-bottom: -2px;
+    border-bottom: 3px solid #258fff;
+    font-weight: bold;              /* 굵은 글자 */
+    color: #258fff;
+}
+.gray-line {
+    border: none;
+    border-top: 1px solid #e2e2e2;
+    margin: 1px;
+}

@@ -1,0 +1,407 @@
+.left_menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;        /* 연한 회색 배경 */
+  color: #000;                    /* 검은색 텍스트 */
+  transition: transform 0.3s ease;
+  z-index: 1000;                    /* 사이드바를 맨 위에 배치 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.left_menu_closed {
+  transform: translateX(-640px);
+}
+.left_menu_btn {
+  width: 20px;
+  height: 70px;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #f0f0f0;     /* 연한 회색 테두리 */
+  background-color: white;       /* 중간 회색 배경 */
+  border-left: none;               /* 왼쪽 테두리 제거 */
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 4px #f0f0f0(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+.left_menu_btn:hover {
+  background-color: #f0f0f0;
+}
+.arrow {                           /* 화살표 스타일 */
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid #258fff; 
+}
+.arrow.open {
+  transform: rotate(180deg); 
+}
+
+.gray-line {
+  border: none;
+  border-top: 1px solid #e2e2e2;
+  margin: 1px;
+}
+
+.left_menu_top{
+  width: 100%;
+  height: 81px;
+  background-color: #258fff;
+  display: flex;
+  justify-content: center;         /* 가로 중앙 정렬 */
+}
+.search_box {
+  width: calc(100% - 40px);
+  align-items: center;
+  border: 1px solid #258fff;
+  background-color: #ffffff;
+  border-radius: 8px;             /* 모서리 둥글게 */
+  position: absolute;             /* 요소를 절대 위치로 설정 */
+  top: 17px;
+  z-index: 1000;                  /* z-index 값 다른 요소 위에 표시 */
+}
+.search_bar {
+  border: none;
+  display: flex;
+  margin-left: 20px;
+  width: calc(100% - 20px);
+}
+.search_window {
+  width: 100%;
+  border: none;
+}
+.search_window:focus {
+  outline: none;                  /* 기본 포커스 아웃라인 제거 */
+}
+.search_window:focus::placeholder {
+  color: transparent;
+}
+.search_bnt {
+  width: 25px;
+  height: 25px;
+  border: none; 
+  background-color: #ffffff;    /* 흰색 배경 */
+  color: #258fff;               /* 텍스트와 아이콘을 보라색으로 */
+  margin: 10px 15px;
+  cursor: pointer;
+  position: relative;             /* 아이콘 위치를 위한 설정 */
+}
+.search_bnt::before {             /* 돋보기 동그라미 */
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #258fff;
+  border-radius: 50%;
+  top: 40%;
+  left: 9px;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+}
+.search_bnt::after {              /* 돋보기 손잡이 */
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #258fff;
+  top: 59%;
+  left: 20px;
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: left center;
+}
+.search_data_box {
+  border-top: 1px solid #258fff;
+}
+.search_results_box {
+  list-style-type: none;          /* 불릿 포인트 제거 */
+  padding: 0;            
+  margin: 0;        
+}
+.search_result{
+  display: flex;
+  padding: 10px;
+  align-items: center;            /* 세로 가운데 정렬 */
+}
+.search_result:hover{
+  background-color: #e2e2e2;
+  cursor: pointer;                /* 마우스를 손가락 모양으로 변경 */
+}
+.today_persent {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: gray;
+  border: 2px solid #D3D3D3;    /* 테두리 색상 */
+}
+.marker-20 {
+  background-color: #FF6F61;    /* 파스텔  */
+}
+.marker-40 {
+  background-color: #FFB347;
+}
+.marker-60 {
+  background-color: #FDFD96;
+}
+.marker-80 {
+  background-color: #AEC6CF;
+}
+.marker-100 {
+  background-color: #779ECB;
+}
+
+.left_menu_mid{
+  width: 100%;
+}
+.left_menu_mid_bnt {
+  margin-left: 25px;
+  margin-bottom: -1px;
+  border: none;                   /* 투명 */
+  width: 90px;
+  height: 44px;
+  color: #666666;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.left_menu_mid_bnt.active {
+  margin-bottom: -2px;
+  border-bottom: 3px solid #258fff;
+  font-weight: bold;              /* 굵은 글자 */
+  color: #258fff;
+}
+
+.left_menu_bot{
+  margin-top: -2px;
+  display: flex;
+  flex-direction: column;         /* 세로 방향 정렬 */
+}
+
+.status-container {               /* 전체 컨테이너 스타일 */
+  margin: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.status-table {                   /* 테이블 스타일 */
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.status-table thead tr {          /* 테이블 헤더 스타일 */
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.status-table th,
+.status-table td {                /* 테이블 데이터 셀 스타일 */
+  padding: 12px 15px;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+.status-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;    /* 짝수 행 배경색 변경 */
+}
+.status-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;    /* 홀수 행 배경색 변경 */
+}
+.status-table tbody tr:hover {    /* 마우스 오버 시 강조 효과 */
+  background-color: #f1f1f1;
+}
+.status-table th {                /* 테이블 헤더 고정 */
+  position: sticky;
+  top: 0;
+  background-color: #258fff;
+  color: white;
+  z-index: 1;
+}
+.status-table th, .status-table td {
+  text-align: center;
+}
+.status-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.reservoir_information_box{
+  width: 100%;
+  height: 200px;
+}
+.table_menu table {
+  width: 100%;
+  border-collapse: collapse;      /* 테두리가 겹치지 않도록 설정 */
+  margin-bottom: 20px;
+}
+.table_menu table,.table_menu th,.table_menu td {
+  border: 1px solid #e2e2e2;    /* 회색 테두리 */
+  border-right: none;
+}
+.table_menu th,.table_menu td {
+  padding: 10px;
+  text-align: left;
+}
+.table_menu th {
+  background-color: #f2f2f2;    /* 헤더에 연한 회색 배경 */
+  font-weight: bold;              /* 굵은 텍스트 */
+}
+.reservoir_graph_box {
+  width: 100%;
+  padding-top: 25px;
+}
+.reservoir_bar {
+  width: 100%;
+  display: flex;
+}
+.recommended-crops {
+  display: flex;
+  width: 55%;
+  margin-left: 20px;
+  margin-top: -20px;
+  align-items: center;
+  font-weight: bold;              /* 글자를 굵게 표시 */
+}
+.recommended-crop {
+  display: flex;
+  text-align: center;
+  margin-left: 20px;
+  align-items: center;
+}
+.recommended-crop img{
+  margin-right: 10px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+.button-group {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;      /* 오른쪽 정렬 */
+  margin-bottom: 20px;
+}
+.graph_button {
+  width: 65px;
+  height: 35px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #258fff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.graph_button:hover {
+  background-color: #1166dd;
+}
+.graph_box{
+  display: flex;
+  justify-content: center;        /* 수평 가운데 정렬 */
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;                 /* 부모 요소 내에서 가운데 정렬 */
+}
+
+.crop-info-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;         /* 세로 방향 정렬 */
+}
+.crop_search_box {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;  
+}
+.crop_search_window {
+  text-align: left;
+  margin-right: 20px;
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.crop_search_window:focus {
+  outline: none;                  /* 기본 포커스 아웃라인 제거 */
+}
+.crop_filter_buttons {
+  display: flex;
+  align-items: center;            /* 수직 중앙 정렬 */
+}
+.crop_filter_buttons button {
+  margin-left: 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;             /* 동그라미 */
+  border: none;                   /* 테두리 제거 */
+  cursor: pointer;                /* 마우스를 올렸을 때 포인터로 변경 */
+  transition: background-color 0.3s ease; /* 색상 변화 효과 */
+}
+.crop_water_high {
+  background-color: #2ecc71;
+}
+.crop_water_medium {
+  background-color: #f4d03f;
+}
+.crop_water_low {
+  background-color: #e74c3c;
+}
+.crop_water_all {
+  background-color: #258fff;
+}
+.crop_water_high:hover {
+  background-color: #1e874b;
+}
+.crop_water_medium:hover {
+  background-color: #f1c40f;
+}
+.crop_water_low:hover {
+  background-color: #c0392b;
+}
+.crop_water_all:hover {
+  background-color: #1166dd;
+}
+.crop_table {
+  width: 100%;
+  margin-top: 20px;
+  max-height: 650px;            /* 세로 최대 높이 설정 */
+  overflow-y: auto;             /* 세로 스크롤 활성화 */
+}
+.crop_table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.crop_table th, .crop_table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  text-align: center;           /* 텍스트를 가로 방향으로 가운데 정렬 */
+}
+.crop_table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.crop_table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.crop_table tr:hover {
+  background-color: #f1f1f1;
+}

@@ -243,9 +243,41 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); /* 검은색 반투명 보더 */
 }
+.header {
+  width: 100%;
+  position: relative;                 /* 부모 박스를 기준으로 자식의 위치를 설정 */
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
 .safety-title {
+  margin-left: 36px;
   color: #000;                      /* 글자 색을 검은색으로 설정 */
   font-weight: bold;                  /* 필요시 텍스트를 굵게 표시 */
+}
+.dropdown-container {
+  position: absolute;                 /* 부모의 상대적인 위치를 기준으로 설정 */
+  top: 5px; 
+  right: 36px; 
+}
+
+.dropdown-button {
+  display: inline-block;
+  padding: 0px 16px;
+  border: 1px solid #dadce0;        /* 버튼 테두리 색 */
+  border-radius: 20px;                /* 둥근 모서리 */
+  background-color: white;          /* 배경 색 */
+  color: #202124;                   /* 텍스트 색 */
+  font-size: 14px;                    /* 텍스트 크기 */
+  font-weight: 500;                   /* 텍스트 굵기 */
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+.dropdown-button:hover {
+  background-color: #f7f8f8;        /* 호버 시 배경 색 */
+  border-color: #dadce0;            /* 호버 시 테두리 색 */
 }
 .color_bar_text {
   width: 30px;
@@ -296,10 +328,10 @@
 }
 .number {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 .difference {
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
 }
 .color_bar_arrow {
@@ -316,10 +348,4 @@
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-top: 10px solid #0000ff; /* 파란색 아래로 화살표 */
-}
-.color_bar_arrow.red {
-  border-color: #ff0000;
-}
-.color_bar_arrow.blue {
-  border-color: #0000ff;
 }
