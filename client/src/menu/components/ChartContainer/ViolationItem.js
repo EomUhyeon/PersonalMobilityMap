@@ -5,9 +5,11 @@ import ExpandedChart from './ExpandedChart';
 const ViolationItem = ({ title, data, isExpanded, onToggle }) => {
   return (
     <li style={{ 
-      height: isExpanded ? '379px' : '100%',
-      overflow: 'hidden',                 /* 스크롤 제거 */
-      transition: 'height 0.3s ease'
+      height: isExpanded ? '379px' : '120px',
+      overflow: 'visible',
+      transition: 'height 0.3s ease',
+      position: 'relative',
+      zIndex: 1
     }}>
       <div style={{ 
         display: 'flex', 
@@ -21,8 +23,9 @@ const ViolationItem = ({ title, data, isExpanded, onToggle }) => {
         </button>
       </div>
       <div style={{ 
-        height: isExpanded ? 'calc(100% - 40px)' : '25%',
-        transition: 'height 0.3s ease'
+        height: isExpanded ? 'calc(100% - 40px)' : '70px',
+        transition: 'height 0.3s ease',
+        position: 'relative'
       }}>
         {isExpanded ? (
           <ExpandedChart data={data} />

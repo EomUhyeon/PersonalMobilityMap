@@ -211,27 +211,14 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
             <>
                 {/* 색상 막대 */}
                 <div className="color-bar-container">
-                    {/* {colors.map((color, index) => (
-                        <div
-                            key={index}
-                            className="color-bar-segment"
-                            style={{ backgroundColor: color }}
-                        >
-                            <span className="color-bar-label">{labels[index]}</span>
-                        </div>
-                    ))} */}
-                    <table style={{ borderCollapse: 'collapse', width: '100%'}}>
+                    <table style={{ borderCollapse: 'collapse', width: '100%' }}>
                         <tbody>
                             <tr>
-                            <td style={{ backgroundColor: '#FF0000', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ backgroundColor: '#FF7F00', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ backgroundColor: '#FFFF00', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ backgroundColor: '#008000', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ border: '1px solid black', backgroundColor: '#FF0000', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ border: '1px solid black', backgroundColor: '#FF7F00', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ border: '1px solid black', backgroundColor: '#FFFF00', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                            <td style={{ border: '1px solid black', backgroundColor: '#008000', width: '25%', height: '5px', textAlign: 'center' }}></td>
                             </tr>
-                        </tbody>                     
-                    </table>
-                    <table style={{ borderCollapse: 'collapse', width: '100%'}}>
-                        <tbody>
                             <tr>
                             <td style={{ textAlign: 'center', padding: '10px' }}>
                                 23

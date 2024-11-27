@@ -76,26 +76,50 @@ const CustomTooltip = ({ active, payload, label }) => {
     const validPayload = payload.find(p => p.value !== null);
     if (!validPayload) return null;
 
+    const date = new Date(label);
+    const transitionDate = new Date('2024-11-21');
+    const currentDate = new Date(label);
+
     return (
       <div style={{ 
         backgroundColor: 'white',
-        padding: '10px',
+        padding: '6px 8px',
         border: '1px solid #ccc',
         borderRadius: '4px',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        fontSize: '11px'
       }}>
-        <p style={{ margin: '0 0 5px 0' }}>{formatDate(label)}</p>
-        {payload.map((p, i) => (
-          p.value !== null && (
-            <p key={i} style={{ 
-              margin: '3px 0',
-              color: p.dataKey === 'actual' ? '#1f77b4' : '#ff7f0e',
-              fontWeight: 'bold'
-            }}>
-              {p.dataKey === 'actual' ? '실제 위반 건수' : '예측 위반 건수'}: {Math.round(p.value)}건
-            </p>
-          )
-        ))}
+        <p style={{ margin: '0 0 3px 0' }}>{formatDate(label)}</p>
+        {/* 예측 데이터 먼저 표시 */}
+        {payload.map((p, i) => {
+          if (p.dataKey === 'predicted' && p.value !== null) {
+            return (
+              <p key={i} style={{ 
+                margin: '2px 0',
+                color: '#ff7f0e',
+                fontWeight: 'bold'
+              }}>
+                예측 위반 건수: {Math.round(p.value)}건
+              </p>
+            );
+          }
+          return null;
+        })}
+        {/* 실제 데이터 나중에 표시 */}
+        {payload.map((p, i) => {
+          if (p.dataKey === 'actual' && p.value !== null) {
+            return (
+              <p key={i} style={{ 
+                margin: '2px 0',
+                color: '#1f77b4',
+                fontWeight: 'bold'
+              }}>
+                실제 위반 건수: {Math.round(p.value)}건
+              </p>
+            );
+          }
+          return null;
+        })}
       </div>
     );
   }
@@ -103,8 +127,11 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 const CompactChart = ({ data }) => (
-  <ResponsiveContainer width="100%" height={30}>
-    <AreaChart data={aggregateDataByTwoWeeks(data)} margin={{ top: 2, right: 20, left: 20, bottom: 2 }}>
+  <ResponsiveContainer width="100%" height={60}>
+    <AreaChart 
+      data={aggregateDataByTwoWeeks(data)} 
+      margin={{ top: 25, right: 20, left: 20, bottom: 10 }}
+    >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis 
         dataKey="date" 
@@ -112,7 +139,12 @@ const CompactChart = ({ data }) => (
         hide 
       />
       <YAxis hide />
-      <Tooltip content={<CustomTooltip />} />
+      <Tooltip 
+        content={<CustomTooltip />}
+        position={{ y: -35 }}
+        cursor={{ stroke: '#666', strokeWidth: 1 }}
+        wrapperStyle={{ zIndex: 100 }}
+      />
       <Area 
         type="monotone" 
         dataKey="actual" 

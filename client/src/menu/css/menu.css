@@ -248,8 +248,8 @@
 .color-bar-container {
   position: relative;
   display: flex;
+  flex-direction: column; /* 아이템을 세로로 배치 */
   width: 90%;
-  border: 1px solid black;
   overflow: hidden;
 }
 .color-bar-segment {

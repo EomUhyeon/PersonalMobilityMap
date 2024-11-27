@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 const LoadingMessage = () => <p>로딩 중...</p>;
 const NoDataMessage = () => <p>데이터가 없습니다.</p>;
 
-const margin = { top: 20, right: 20, bottom: 50, left: 40 };
+const margin = { top: 20, right: 5, bottom: 50, left: 25 };
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length > 0) {
@@ -24,6 +24,11 @@ const CustomTooltip = ({ active, payload, label }) => {
     const year = date.getFullYear();
     const month = date.getMonth() + 1;
     const weekNum = Math.ceil(date.getDate() / 7);
+    
+    // 전환 날짜 설정
+    const transitionDate = new Date('2024-11-21');
+    const currentDate = new Date(label);
+    const isActualData = currentDate <= transitionDate;
 
     return (
       <div style={{ 
@@ -39,10 +44,10 @@ const CustomTooltip = ({ active, payload, label }) => {
           p.value !== null && (
             <p key={i} style={{ 
               margin: '3px 0',
-              color: p.dataKey === 'actual' ? '#1f77b4' : '#ff7f0e',
+              color: isActualData ? '#1f77b4' : '#ff7f0e',
               fontWeight: 'bold'
             }}>
-              {p.dataKey === 'actual' ? '실제 위반 건수' : '예측 위반 건수'}: {Math.round(p.value)}건
+              {isActualData ? '실제 위반 건수' : '예측 위반 건수'}: {Math.round(p.value)}건
             </p>
           )
         ))}
@@ -141,12 +146,10 @@ const ViolationChart = () => {
 
       data.forEach(item => {
         const date = new Date(item.date);
-        if (date >= new Date('2023-12-15')) {
-          if (date <= cutoffDate) {
-            actual.push(item);
-          } else if (date <= endDate) {
-            predicted.push(item);
-          }
+        if (date <= cutoffDate) {
+          actual.push(item);
+        } else if (date <= endDate) {
+          predicted.push(item);
         }
       });
 
@@ -159,9 +162,7 @@ const ViolationChart = () => {
           monthLabel: `${cutoffDate.getFullYear()}-${(cutoffDate.getMonth() + 1).toString().padStart(2, '0')}`
         };
         
-        // 실제 데이터의 마지막에 전환 지점 추가
         actual.push(transitionPoint);
-        // 예측 데이터의 시작에 전환 지점 추가
         predicted.unshift(transitionPoint);
       }
 
@@ -176,7 +177,7 @@ const ViolationChart = () => {
       const container = document.querySelector('.chart-section');
       if (container) {
         setDimensions({
-          width: container.clientWidth - 60,
+          width: container.clientWidth - 20,
           height: container.clientHeight - 30
         });
       }
@@ -192,7 +193,7 @@ const ViolationChart = () => {
 
   const xScale = scaleTime({
     domain: [
-      new Date('2023-12-15'),  // 시작 날짜를 12월 15일로 조정
+      new Date('2023-11-15'),  // 시작 날짜를 11월 15일로 수정
       new Date('2025-02-28')
     ],
     range: [0, width]
@@ -254,20 +255,20 @@ const ViolationChart = () => {
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <svg width={dimensions.width} height={dimensions.height}>
-        <Group left={margin.left} top={margin.top}>
+        <Group left={margin.left + 20} top={margin.top}>
           <GridRows 
             scale={yScale} 
             width={width} 
-            strokeDasharray="3 3" 
+            strokeDasharray="2 2" 
             stroke="#e0e0e0" 
-            strokeOpacity={0.2}
+            strokeOpacity={0.4}
           />
           <GridColumns 
             scale={xScale} 
             height={height} 
-            strokeDasharray="3,3" 
+            strokeDasharray="2 2" 
             stroke="#e0e0e0"
-            strokeOpacity={0.3}
+            strokeOpacity={0.4}
           />
           
           <AxisBottom 

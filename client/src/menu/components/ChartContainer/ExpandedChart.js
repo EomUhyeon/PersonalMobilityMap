@@ -113,7 +113,7 @@ const ExpandedChart = ({ data }) => (
   <ResponsiveContainer width="100%" height="100%">
     <AreaChart 
       data={aggregateDataByTwoWeeks(data)}
-      margin={{ top: 10, right: 30, left: 20, bottom: 25 }}
+      margin={{ top: 10, right: 30, left: -20, bottom: 25 }}
     >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis 
@@ -133,7 +133,7 @@ const ExpandedChart = ({ data }) => (
         wrapperStyle={{ 
           bottom: 30,
           fontSize: '11px',
-          paddingLeft: '40px'
+          paddingLeft: '10px'
         }}
       />
       <Area
