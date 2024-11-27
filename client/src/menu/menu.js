@@ -202,46 +202,51 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
         );
     };
 
-
     const ColorBar = () => {
-        const colors = ["#FF0000", "#FF7F00", "#FFFF00", "#008000"]; // 색상 배열
-        const labels = ["위험", "주의", "조심", "안전"]; // 숫자 배열
-    
+        const rowData = [
+            { number: 12, diff: -4 },
+            { number: 15, diff: -3 },
+            { number: 25, diff: 2 },
+            { number: 125, diff: 5 },
+          ];
         return (
             <>
-                {/* 색상 막대 */}
+                <h6 class="safety-title">(대구 광역시)개인형 이동장치 안전도</h6>
                 <div className="color-bar-container">
-                    <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+                    <table className="color-bar-table">
                         <tbody>
+                        {/* 첫 번째 행 */}
                             <tr>
-                            <td style={{ border: '1px solid black', backgroundColor: '#FF0000', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ border: '1px solid black', backgroundColor: '#FF7F00', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ border: '1px solid black', backgroundColor: '#FFFF00', width: '25%', height: '5px', textAlign: 'center' }}></td>
-                            <td style={{ border: '1px solid black', backgroundColor: '#008000', width: '25%', height: '5px', textAlign: 'center' }}></td>
+                                <td></td>
+                                <td className="color-cell red"></td>
+                                <td className="color-cell orange"></td>
+                                <td className="color-cell yellow"></td>
+                                <td className="color-cell green"></td>
+                                <td></td>
                             </tr>
+                        {/* 두 번째 행 */}
                             <tr>
-                            <td style={{ textAlign: 'center', padding: '10px' }}>
-                                23
-                            </td>
-                            <td style={{ textAlign: 'center', padding: '10px' }}>
-                                53
-                            </td>
-                            <td style={{ textAlign: 'center', padding: '10px' }}>
-                                13
-                            </td>
-                            <td style={{ textAlign: 'center', padding: '10px' }}>
-                                9
-                            </td>
+                                <td className="color_bar_text">위험</td>
+                                {rowData.map((item, index) => (
+                                    <td key={index} className="number-cell">
+                                        <div className="number-container">
+                                        <span className="number">{item.number}</span>
+                                        <span className="difference">
+                                            ({Math.abs(item.diff)}
+                                            <span
+                                            className={`color_bar_arrow ${
+                                                item.diff > 0 ? 'up' : 'down'}`}
+                                            ></span>
+                                            )
+                                        </span>
+                                        </div>
+                                    </td>
+                                ))}
+                                <td className="color_bar_text">안전</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-    
-                {/* 하단 라벨 */}
-                {/* <div className="color-bar-labels">
-                    <span className="color-bar-danger">위험</span>
-                    <span className="color-bar-safe">안전</span>
-                </div> */}
             </>
         );
     };
@@ -273,7 +278,6 @@ function Menu({ putSearch, getPopup, isEmptyPopup }) {
                 />
             </div>
             <div className="right_menu">
-                <h6 class="safety-title">(대구 광역시)개인형 이동장치 안전도</h6>
                 <ColorBar />
             </div>
         </div>

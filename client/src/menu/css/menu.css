@@ -230,53 +230,96 @@
 
 .right_menu {
   margin-top: 21px;
-  height: 200px;
+  height: 63px;
   background-color: #ffffff;
   border-radius: 2px;                 /* 모서리 둥글게 */
   position: absolute;
   top: 0;
-  left: 77%;
-  width: 20%;
+  left: 72%;
+  width: 25%;
   display: flex;                      /* 가로 정렬 설정 */
   flex-direction: column;             /* 아이템을 세로로 배치 */
   align-items: center;                /* 가로 정렬 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 기본 그림자 */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); /* 검은색 반투명 보더 */
 }
 .safety-title {
   color: #000;                      /* 글자 색을 검은색으로 설정 */
   font-weight: bold;                  /* 필요시 텍스트를 굵게 표시 */
 }
+.color_bar_text {
+  width: 30px;
+  font-size: 12px;                    /* 글자 크기를 작게 설정 */
+  text-align: center;                 /* 가로 중앙 정렬 */
+  vertical-align: top;                /* 상단에 붙이기 */
+  padding: -5px 0;                    /* 상단 음수 패딩 설정 */
+  margin: 0;                          /* 기본 마진 제거 */
+  line-height: 1;                     /* 줄 간격 축소 */
+}
 .color-bar-container {
   position: relative;
   display: flex;
-  flex-direction: column; /* 아이템을 세로로 배치 */
+  flex-direction: column;
   width: 90%;
   overflow: hidden;
+  margin: 0 auto;
 }
-.color-bar-segment {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.color-bar-label {
-  color: #000;
-  font-weight: bold;
-}
-.color-bar-labels {
-  margin-top: 10px;
-  position: absolute;
+.color-bar-table {
+  border-collapse: collapse;
   width: 100%;
+}
+.color-cell {
+  width: 21%;
+  height: 5px;
+  border: 1px solid black;
+}
+.color-cell.red {
+  background-color: #ff0000;
+}
+.color-cell.orange {
+  background-color: #ff7f00;
+}
+.color-cell.yellow {
+  background-color: #ffff00;
+}
+.color-cell.green {
+  background-color: #008000;
+}
+.number-cell {
+  text-align: center;
+}
+.number-content {
   display: flex;
-  justify-content: space-between;
-  font-size: 14px;
+  align-items: center;            /* 세로 정렬 */
+  justify-content: center;        /* 가로 정렬 */
+  gap: 5px;                       /* 숫자와 차이값 간 간격 */
+}
+.number {
   font-weight: bold;
+  font-size: 18px;
 }
-.color-bar-safe {
-  margin-right: 15%;
-  margin-top: 5%;
+.difference {
+  font-size: 16px;
+  color: #333;
 }
-.color-bar-danger {
-  margin-left: 15%;
-  margin-top: 5%;
+.color_bar_arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+.color_bar_arrow.up {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #ff0000; /* 빨간색 위로 화살표 */
+}
+.color_bar_arrow.down {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #0000ff; /* 파란색 아래로 화살표 */
+}
+.color_bar_arrow.red {
+  border-color: #ff0000;
+}
+.color_bar_arrow.blue {
+  border-color: #0000ff;
 }
